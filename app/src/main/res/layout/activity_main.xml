@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+android:background="@drawable/mm2">
+
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/lesson_text"
+    android:id="@+id/button"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10sp"
+    android:onClick="click_lesson_all"
+    android:layout_marginLeft="40sp"
+    android:layout_marginRight="40sp"
+    android:background="@drawable/abc_popup_background_mtrl_mult"
+    android:textColorLink="#dcd8d8"
+    android:textSize="22dp"
+    android:textStyle="bold|italic"
+    android:typeface="serif" />
+
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/tesy_text"
+    android:id="@+id/button2"
+    android:layout_below="@+id/button"
+    android:layout_centerHorizontal="true"
+    android:layout_marginLeft="40sp"
+    android:layout_marginRight="40sp"
+    android:layout_marginTop="10sp"
+    android:onClick="onclick_test"
+    android:background="@drawable/abc_popup_background_mtrl_mult"
+    android:textColorLink="#d4d3d3"
+    android:textSize="22dp"
+    android:textStyle="bold|italic"
+    android:typeface="serif"
+    android:shadowColor="@color/color_shadow"
+    android:shadowRadius="7"
+    />
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/task_test"
+    android:id="@+id/button5"
+    android:layout_below="@+id/button2"
+    android:layout_centerHorizontal="true"
+    android:onClick="onClick_the_task"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="40dp"
+    android:background="@drawable/abc_popup_background_mtrl_mult"
+    android:shadowColor="@color/color_shadow"
+    android:textColorLink="#d4d3d3"
+    android:textSize="20dp"
+    android:textStyle="bold|italic"
+    android:typeface="serif" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/o_app"
+        android:id="@+id/button4"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/abc_popup_background_mtrl_mult"
+        android:shadowColor="@color/color_shadow"
+        android:textColorLink="#d4d3d3"
+        android:textSize="14dp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        android:onClick="onClick_o_app"
+        android:minHeight="50dp"
+        android:layout_below="@+id/button5" />
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_vopros"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="gvhjbhjbhb"
+        android:minHeight="40dp"
+        android:textSize="16dp"
+        android:background="#efffed"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="10dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg"
+        android:layout_marginTop="10dp"
+        android:minHeight="100dp"
+        android:gravity="center_vertical"
+        android:theme="@style/Base.Widget.AppCompat.ActionBar.Solid"
+        android:background="#f6f2f2"
+        android:onClick="onClick_rg"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentStart="false"
+        android:layout_below="@+id/text_vopros">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New RadioButton"
+            android:id="@+id/radioButton"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New RadioButton"
+            android:id="@+id/radioButton2" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New RadioButton"
+            android:id="@+id/radioButton3" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New RadioButton"
+            android:id="@+id/radioButton4" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ответить"
+        android:id="@+id/button_pr"
+        android:layout_below="@+id/rg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/abc_popup_background_mtrl_mult"
+        android:layout_marginTop="0dp"
+        android:onClick="onClick_proverka"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Далее"
+        android:id="@+id/button_next"
+        android:background="@drawable/abc_popup_background_mtrl_mult"
+        android:layout_below="@+id/rg"
+        android:layout_toEndOf="@+id/button_pr"
+        android:onClick="onClick_next"/>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pr_otvet">#A5FF95</color>
+    <color name="nepr_otvet">#FF4B4B</color>
+    <color name="otvet_neitral">#f6f2f2</color>
+    <color name="color_shadow">#DBDADA</color>
+</resources>

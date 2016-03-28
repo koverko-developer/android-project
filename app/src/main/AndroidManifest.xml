@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.drusilovihi.pascalabc" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".lesson_all" >
+        </activity>
+        <activity
+            android:name=".ScrollingActivityL0"
+            android:label="@string/lesson0"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ScrollingActivityl1"
+            android:label="@string/lesson1"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ScrollingActivity2"
+            android:label="@string/lesson2"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ScrollingActivity3"
+            android:label="@string/lesson3"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ScrollingActivity4"
+            android:label="@string/lesson4"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ScrollingActivity5"
+            android:label="@string/lesson5"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ScrollingActivity6"
+            android:label="@string/lesson6"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ScrollingActivity7"
+            android:label="@string/lesson7"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ScrollingActivity8"
+            android:label="@string/lesson8"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ScrollingActivity9"
+            android:label="@string/lesson9"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ScrollingActivity10"
+            android:label="@string/lesson10"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ScrollingActivity11"
+            android:label="@string/lesson11"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ScrollingActivity12"
+            android:label="@string/lesson12"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ScrollingActivity13"
+            android:label="@string/lesson13"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ScrollingActivity14"
+            android:label="@string/lesson14"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ScrollingActivity15"
+            android:label="@string/lesson15"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ScrollingActivity16"
+            android:label="@string/lesson16"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ScrollingActivity17"
+            android:label="@string/content_lesson17"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".spisok_testov" >
+        </activity>
+        <activity android:name=".testy_all" >
+        </activity>
+        <activity android:name=".result_test" >
+        </activity>
+        <activity android:name=".Main2Activity" >
+        </activity>
+        <activity android:name=".task_all" >
+        </activity>
+        <activity
+            android:name=".app_info"
+            android:label="@string/o_app"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".info_app" >
+        </activity>
+    </application>
+
+</manifest>

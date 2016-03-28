@@ -1,0 +1,1040 @@
+<resources>
+    <string name="app_name">PascalABC</string>
+    <string-array name="lesson">
+        <item>Введение</item>
+        <item>Урок 1(Целочисленные вычисления)</item>
+        <item>Урок 2(Использование модуля CRT)</item>
+        <item>Урок 3(Графический модуль GraphABC)</item>
+        <item>Урок 4(Цикл for)</item>
+        <item>Урок 5(Оператор if)</item>
+        <item>Урок 6(Оператор case)</item>
+        <item>Урок 7(Операторы цикла While и Repeat … Until)</item>
+        <item>Урок 8(Вещественные вычисления на языке Pascal)</item>
+        <item>Урок 9(Подпрограммы на языке Pascal)</item>
+        <item>Урок 10(Подпрограммы на языке Pascal)</item>
+        <item>Урок 11(Способы передачи параметров)</item>
+        <item>Урок 12(Массивы)</item>
+        <item>Урок 13(Сортировка массивов)</item>
+        <item>Урок 14(Работа с файлами)</item>
+        <item>Урок 15(Символьные переменные и строки символов)</item>
+        <item>Урок 16(Множества)</item>
+        <item>Урок 17(Вычислительные программы – квадратное уравнение)</item>
+    </string-array>
+    <string name="end_test">Завершить тест</string>
+    <string name="lesson_text">Уроки</string>
+    <string name="tesy_text">Тесты</string>
+    <string name="task_test">Задания</string>
+    <string name="o_app">О приложении</string>
+    <string-array name="task_spisok">
+        <item>Урок1-3</item>
+        <item>Урок4-7</item>
+        <item>Урок8-10</item>
+        <item>Урок11-13</item>
+        <item>Урок14-17</item>
+    </string-array>
+    <string name="app_info">
+
+        "Данное приложение разрабатывалось для конкурса \' \'."
+          "Приложение предоставила: ГУО Дружиловичский УПК детский сад-средняя школа."
+          "Под руководством: Коверко И.Н."
+          "Требования к приложению : Android 4.2."
+    </string>
+    <string name="task_1">
+         1.Напишите и выполните программу на компьютере:\n -Программа вводит одно число, и вычисляет его квадрат, вычитая из него удвоенное значение введенного числа.\n -Программа вводит два числа, выводит сумму квадратов этих чисел минус их произведение.\n -Программа вводит два числа, выводит сумму их модулей (см. функцию abs).\n\n2. Напишите программу, которая решает следующую задачу:\n\nОплата Интернета в школе состоит из двух частей: 100 долларов в месяц за доступ и 5 долларов в месяц за поддержку школьного сайта. Платеж можно делать независимо за любое количество месяцев за доступ и за поддержку сайта. Напишите программу, которая позволяла бы вводить отдельно количество оплачиваемых месяцев для доступа и поддержки и выводила бы сумму оплаты.\n\n3.Напишите программу «Визитная карточка», которая выводила бы на экран хорошо оформленные ваши личные данные: имя, фамилию, год рождения, адрес, телефон. Используйте разные цвета, хорошо скомпонуйте.\n\n4.Напишите программу, использующую не менее трех процедур рисования, которая рисовала бы несложный рисунок (домик, автомобиль, и т.п.)
+    </string>
+    <string name="task_2">
+        1. По образцу программ, написанных на предыдущей странице, решите следующую задачу:  Программа вводит число в диапазоне от 1 до 10 и выводит на экран значение числа русскими буквами (один, два, … десять).\n\n2. Модифицируйте программу таким образом, чтобы она выводила название чисел в диапазоне от 1 до 99 (ну кассовый аппарат же это делает на чеках!).\n\n3.Ну, если уж сделали предыдущую задачу, то расширьте диапазон чисел до 999.\n\n4.Напишите программу, которая вводила бы целые числа и суммировала их до тех пор, пока пользователь не ввел число 0.
+    </string>
+    <string name="task_3">
+        1.Напишите программу, которая вводила бы с клавиатуры значения времени и скорости, вычисляла бы пройденный путь.\n\n2. Напишите программу, которая вводила бы с клавиатуры 10 вещественных чисел и вычисляла бы их среднее арифметическое.\n\n3.Напишите программу, которая вводила бы градусы, минуты и секунды дуги переводила их в градусы и его десятичные доли.\n\n4.Напишите функцию, вычисляющую факториал числа n!=1-2-3...-n . Подсказка: ее несложно сделать, путем модификации функции power.\n\n.Создайте еще несколько новых графических процедур, которые бы расширили возможность стандартной библиотеки (ромб, параллелограмм, и т.п.)
+    </string>
+    <string name="task_4">
+        1.Напишите процедуру с двумя целочисленными параметрами, которая бы меняла местами их значения. Проверьте ее работу.\n\n2.Напишите процедуру, аналогичную процедуре Pr, которая вычисляла бы периметр и площадь квадрата со стороной r и а также объем куба с тем же самым ребром r.\n\n3.Напишите программу, которая бы определяла среднее арифметическое значение элементов массива (конечно, это будет вещественная величина типа real)\n\n4.Внимательно прочитать текст. Оформите сортировку массива в виде отдельной процедуры (здесь уже применение var-параметра будет обязательным).
+    </string>
+    <string name="task_5">
+        1.Напишите программу, создающую таблицу умножения в файле mult.txt. Для ее создания используйте вложенные циклы for. Откройте получившийся файл в текстовом редакторе\n\n2.Напишите программу, запрашивающую имена файлов, и копирующую один файл в другой, заодно вычисляя число строк (или символов) в файле.\n\n3.Напишите программу, которая вводит текстовую строку, подсчитывает, сколько в ней гласных букв, согласных букв, знаков препинания.
+    </string>
+    <string-array name="spisok_testov">
+        <item>Тест 1</item>
+        <item>Тест 2</item>
+        <item>Тест 3</item>
+        <item>Тест 4</item>
+        <item>Тест 5</item>
+        <item>Тест 6</item>
+        <item>Тест 7</item>
+        <item>Тест 8</item>
+    </string-array>
+    <string-array name="test_1">
+        <item>"Программа – это:"</item>
+        <item>"Один из способов самовыражения;"</item>
+        <item>"Один из способов записи алгоритмов;"</item>
+        <item>"Инструкция по разработке алгоритма;"</item>
+        <item>"Ни один ответ не является правильным."</item>
+        <item>"Один из способов записи алгоритмов;"</item>
+        <item>"Тело любой программы начинается и заканчивается зарезервированными словами:"</item>
+        <item>"Начало…конец;"</item>
+        <item>"Program…End;"</item>
+        <item>"Begin…End;"</item>
+        <item>"Program…Begin"</item>
+        <item>"Begin…End;"</item>
+        <item>"В программе после каждого предложения нужно ставить:"</item>
+        <item>"Точку;"</item>
+        <item>"Запятую;"</item>
+        <item>"Точку с запятой;"</item>
+        <item>"Восклицательный знак."</item>
+        <item>"Точку с запятой;"</item>
+        <item>"В конце программы после слова End  ставят:"</item>
+        <item>"Точку;"</item>
+        <item>"Запятую;"</item>
+        <item>"Точку с запятой;"</item>
+        <item>"Восклицательный знак."</item>
+        <item>"Точку;"</item>
+        <item>"Вывести на экран текст «Введи число» в процессе выполнения программы можно с помощью команды:"</item>
+        <item>"Write (‘Введи число’);"</item>
+        <item>"Read (‘Введи число’);"</item>
+        <item>"Write (“Введи число”);"</item>
+        <item>"Write (Введи число);"</item>
+        <item>"Write (‘Введи число’);"</item>
+        <item>"Ввести с клавиатуры значение переменной А во время выполнения программы можно с помощью команды:"</item>
+        <item>"Write (‘А’);"</item>
+        <item>"Read (‘А’);"</item>
+        <item>"Read (А);"</item>
+        <item>"Read  А;"</item>
+        <item>"Read (А);"</item>
+        <item>"Что будет выведено на экран в результате выполнения следующей команды:\n Write (‘a=’, a);\n при а=5?"</item>
+        <item>"5;"</item>
+        <item>"a=5;"</item>
+        <item>"‘a=5’;"</item>
+        <item>"‘a=’;"</item>
+        <item>"a=5;"</item>
+        <item>"Выберите правильное имя переменной:"</item>
+        <item>"Целый;"</item>
+        <item>"Real;"</item>
+        <item>"123;"</item>
+        <item>"Ab1;"</item>
+        <item>"Ab1;"</item>
+        <item>"После какого зарезервированного слова описываются переменные:"</item>
+        <item>"Begin;"</item>
+        <item>"Var;"</item>
+        <item>"End;"</item>
+        <item>"Program;"</item>
+        <item>"Var;"</item>
+        <item>"Для обозначения данных в программе используются следующие переменные:\nN – номер дня недели;\nSt – среднегодовая температура воздуха;\nВыберите правильное описание переменных :"</item>
+        <item>"Var N, St: integer;"</item>
+        <item>"Var N: real;\nSt: integer;"</item>
+        <item>"Var  St: real;\nN: integer;"</item>
+        <item>"Var  St: real;\nN: char;"</item>
+        <item>"Var  St: real;\nN: integer;"</item>
+    </string-array>
+    <string-array name="test_2">
+        <item>"Укажите неправильный оператор:"</item>
+        <item>"a:=19;"</item>
+        <item>"b:=4/a;"</item>
+        <item>"5:=m;"</item>
+        <item>"a:=a+5;"</item>
+        <item>"5:=m;"</item>
+        <item>"Что будет выведено на экран в результате выполнения следующей программы:\nVar a, b,c: integer;\nBegin\n a:=1; b:=2; c:=3;\n writeln(a, b, c);\nEnd."</item>
+        <item>"123;"</item>
+        <item>"1 2 3;"</item>
+        <item>"1,2,3;"</item>
+        <item>"a, b, c;"</item>
+        <item>"123;"</item>
+        <item>"Что будет выведено на экран в результате выполнения следующей программы:\nVar a, b,c: integer;\nBegin\n a:=1; b:=2;c:=3;\n c:=a+b*3-c;\n writeln(c);\nEnd."</item>
+        <item>"4;"</item>
+        <item>"3;"</item>
+        <item>"2;"</item>
+        <item>"6"</item>
+        <item>"4;"</item>
+        <item>"Какая функция вычисляет квадрат числа x?"</item>
+        <item>"frac(x);"</item>
+        <item>"trunk(x);"</item>
+        <item>"abs(x);"</item>
+        <item>"sqr(x);"</item>
+        <item>"sqr(x);"</item>
+        <item>"Какая функция вычисляет модуль  числа x?"</item>
+        <item>"frac(x);"</item>
+        <item>"trunk(x);"</item>
+        <item>"abs(x);"</item>
+        <item>"sqr(x);"</item>
+        <item>"abs(x);"</item>
+        <item>"Что будет выведено на экран в результате выполнения следующей программы?\nVar  a, b, c:integer;\nBegin\n\n a:=10;\n b:=3;\n c:=a mod b;\n writeln(c);\nEnd."</item>
+        <item>"1;"</item>
+        <item>"2;"</item>
+        <item>"3;"</item>
+        <item>"4;"</item>
+        <item>"1;"</item>
+        <item>"Что будет выведено на экран в результате выполнения следующей программы?\nVar  a, b, c:integer;\nBegin\n a:=10;\n b:=3;\n c:=a div b;\n writeln(c);\nEnd."</item>
+        <item>"1;"</item>
+        <item>"2;"</item>
+        <item>"3’;"</item>
+        <item>"4;"</item>
+        <item>"3;"</item>
+        <item>"Что будет выведено на экран в результате выполнения следующей программы?\nVar c:integer;\na:real;\nBegin\n\n a:=5.7;\n c:=t runc(a) ;\n writeln(c);\nEnd."</item>
+        <item>"6;"</item>
+        <item>"5;"</item>
+        <item>"0;"</item>
+        <item>"7;"</item>
+        <item>"5;"</item>
+        <item>"Что будет выведено на экран в результате выполнения следующей программы?\nVar c:integer;\na:real;\nBegin\n a:=5.7;\n c:=round(a) ;\n writeln(c);\nEnd."</item>
+        <item>"6;"</item>
+        <item>"5;"</item>
+        <item>"0;"</item>
+        <item>"7;"</item>
+        <item>"6;"</item>
+        <item>". Что будет выведено на экран в результате выполнения следующей программы?\nVar c:integer;\na:real;\nBegin\n a:=5.7;\n c:=frac(a) ;\n writeln(c);\nEnd."</item>
+        <item>"6;"</item>
+        <item>"5;"</item>
+        <item>"0;"</item>
+        <item>"7;"</item>
+        <item>"6;"</item>
+    </string-array>
+    <string-array name="test_3">
+        <item>"Простое условие – это:"</item>
+        <item>"сравнение двух выражений по величине;"</item>
+        <item>"сравнение двух и более выражений по величине;"</item>
+        <item>"сравнение нескольких величин;"</item>
+        <item>"сравнение двух величин."</item>
+        <item>"сравнение двух выражений по величине;"</item>
+        <item>"Составные условия строятся из простых с помощью:"</item>
+        <item>"логических операций and, or, not;"</item>
+        <item>"арифметических операций +, -;"</item>
+        <item>"арифметических операций *, /;"</item>
+        <item>"с помощью операций, перечисленных в пунктах a, b;"</item>
+        <item>"логических операций and, or, not;"</item>
+        <item>"Что будет выведено на экран в результате выполнения следующей программы?\nvar x,y:integer;\nbegin\n x:=2;\n y:=0;\n if (x&#60;>0) and (y&#60;>0) ) then writeln((x+y)/2) else writeln(0);\nend."</item>
+        <item>"1"</item>
+        <item>"0"</item>
+        <item>"3"</item>
+        <item>"2"</item>
+        <item>"1"</item>
+        <item>"Что будет выведено на экран в результате выполнения следующей программы?\nvar x,y:integer;\nbegin\n x:=2;\n y:=0;\n if (x&#60;>0) or (y&#60;>0) ) then writeln((x+y)/2) else writeln(0);\n end."</item>
+        <item>"1"</item>
+        <item>"0"</item>
+        <item>"3"</item>
+        <item>"2"</item>
+        <item>"1"</item>
+        <item>"Что будет выведено на экран в результате выполнения следующей программы?\nvar a:integer;\nbegin\n a:=15;\n if (a mod 2 = 0) then writeln(a div 2) else writeln(a mod 2);\nend."</item>
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"7"</item>
+        <item>"2"</item>
+        <item>"1"</item>
+        <item>"Какого типа может быть переменная цикла?"</item>
+        <item>"real"</item>
+        <item>"integer"</item>
+        <item>"real, integer"</item>
+        <item>"char"</item>
+        <item>"integer"</item>
+        <item>"Если в следующей конструкции For ... to ...do начальное значение переменной цикла больше конечного значения, то ...."</item>
+        <item>"тело цикла выполнится один раз"</item>
+        <item>"произойдет зацикливание"</item>
+        <item>"тело цикла выполнится два раза"</item>
+        <item>"тело цикла не выполнится ни разу"</item>
+        <item>"тело цикла не выполнится ни разу"</item>
+        <item>"Сколько раз выполнится тело цикла?\n For i:=2 to 7 do write (\'*\');"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+        <item>"0"</item>
+        <item>"6"</item>
+        <item>"Какой из приведенных операторов является оператором цикла с предусловием...?"</item>
+
+        <item>"if ... then ... else ..."</item>
+        <item>"for ... to ... do ..."</item>
+        <item>"while ... do ..."</item>
+        <item>"for ... downto ...do"</item>
+        <item>"while ... do ..."</item>
+        <item>"Сколько раз выполнится тело цикла в программе?\nvar a:integer;\nbegin\n a:=15;\n while a&#60;10 do\n begin write (\'*\');\n a:=a+2;\n end;\nEnd."</item>
+        <item>"10"</item>
+        <item>"1"</item>
+        <item>"0"</item>
+        <item>"2"</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="test_4">
+        <item>"Подключить библиотеку работы с экраном в текстовом режиме  можно с помощью предложения:"</item>
+        <item>"Uses GraphAbc;"</item>
+        <item>"Uses CRT;"</item>
+        <item>"Uses GRT;"</item>
+        <item>"Uses Abc;"</item>
+        <item>"Uses CRT;"</item>
+        <item>"Процедура ClrScr "</item>
+        <item>"устанавливает текущий цвет фона, который будет использоваться операторами write и writeln;"</item>
+        <item>"устанавливает текущий цвет букв, который будет использоваться операторами write и writeln;"</item>
+        <item>"переводит курсор в указанную позицию;"</item>
+        <item>"очищает экран или текущее окно, закрашивая его текущим цветом фона;"</item>
+        <item>"очищает экран или текущее окно, закрашивая его текущим цветом фона;"</item>
+        <item>"Процедура TextColor(цвет)"</item>
+        <item>"устанавливает текущий цвет фона, который будет использоваться операторами write и writeln;"</item>
+        <item>"устанавливает текущий цвет букв, который будет использоваться операторами write и writeln;"</item>
+        <item>"переводит курсор в указанную позицию;"</item>
+        <item>"очищает экран или текущее окно, закрашивая его текущим цветом фона;"</item>
+        <item>"устанавливает текущий цвет букв, который будет использоваться операторами write и writeln;"</item>
+        <item>"Процедура TextBackGround(Red)"</item>
+        <item>"очищает экран или текущее окно, закрашивая его красным цветом фона;"</item>
+        <item>"устанавливает красный цвет фона, который будет использоваться операторами write и writeln;"</item>
+        <item>"устанавливает красный цвет букв, который будет использоваться операторами write и writeln;"</item>
+        <item>"устанавливает синий цвет фона, который будет использоваться операторами write и writeln;"</item>
+        <item>"устанавливает красный цвет фона, который будет использоваться операторами write и writeln;"</item>
+        <item>"Подключить графический модуль  можно с помощью предложения:"</item>
+        <item>"Uses GraphAbc;"</item>
+        <item>"Uses CRT;"</item>
+        <item>"Uses GRT;"</item>
+        <item>"Uses Abc;"</item>
+        <item>"Uses GraphAbc;"</item>
+        <item>"Команда SetWindowSize(256,256);"</item>
+        <item>"Рисует линию"</item>
+        <item>"Рисует пиксель"</item>
+        <item>"Рисует окружность"</item>
+        <item>"Устанавливает размеры графического окна"</item>
+        <item>"Устанавливает размеры графического окна"</item>
+        <item>"Команда rectangle (255,255,395,345);"</item>
+        <item>"Рисует окружность"</item>
+        <item>"Рисует линию"</item>
+        <item>"Рисует эллипс"</item>
+        <item>"Рисует прямоугольник"</item>
+        <item>"Рисует прямоугольник"</item>
+        <item>""Команда Line(250,350,250,425);</item>
+        <item>"Рисует линию"</item>
+        <item>"Рисует эллипс"</item>
+        <item>"Рисует пиксель"</item>
+        <item>"Рисует дугу окружности"</item>
+        <item>"Рисует линию"</item>
+        <item>"Команда setBrushColor (Clgreen);"</item>
+        <item>"устанавливает зеленый цвет кисти"</item>
+        <item>"устанавливает стиль кисти"</item>
+        <item>"устанавливает зеленый цвет пера"</item>
+        <item>"устанавливает зеленый цвет фона"</item>
+        <item>"устанавливает зеленый цвет кисти"</item>
+        <item>"Команда Circle (600,500,25)"</item>
+        <item>"Рисует окружность"</item>
+        <item>"Рисует линию"</item>
+        <item>"Рисует эллипс"</item>
+        <item>"Рисует прямоугольник"</item>
+        <item>"Рисует окружность"</item>
+
+
+    </string-array>
+    <string-array name="test_5">
+        <item>"В каком случае вместо условного оператора рационально использовать оператор выбора?"</item>
+        <item>"Если по результатам выполнения условия не два возможных варианта выполнения программы, а больше."</item>
+        <item>"Если в программе более одного условия."</item>
+        <item>"Если в программе приходиться использовать вложенные условия."</item>
+        <item>"Применение обоих операторов идентично, они взаимозаменяемы."</item>
+        <item>"Если по результатам выполнения условия не два возможных варианта выполнения программы, а больше."</item>
+        <item>"Какое зарезервированное слово не используются в записи оператора выбора?"</item>
+        <item>"else"</item>
+        <item>"then"</item>
+        <item>"case"</item>
+        <item>"of"</item>
+        <item>"then"</item>
+        <item>"Оператор выбора case завершается словом:"</item>
+        <item>"else"</item>
+        <item>"then"</item>
+        <item>"case"</item>
+        <item>"end"</item>
+        <item>"end"</item>
+        <item>"Определите правильную запись оператора выбора:"</item>
+        <item>"case day of\n 1: writeln(\'Понедельник\');\n 2: writeln(\'Вторник\');\n 3: writeln(\'Среда\');\nend;"</item>
+        <item>"case day if\n 1: writeln(\'Понедельник\');\n 2: writeln(\'Вторник\');\n 3: writeln(\'Среда\');\nend;"</item>
+        <item>"case day if\n 1:= writeln(\'Понедельник\');\n 2:= writeln(\'Вторник\');\n 3:= writeln(\'Среда\');\nend;"</item>
+        <item>"case day if\n 1= writeln(\'Понедельник\');\n 2= writeln(\'Вторник\');\n 3= writeln(\'Среда\');\nend;"</item>
+        <item>"case day of\n 1: writeln(\'Понедельник\');\n 2: writeln(\'Вторник\');\n 3: writeln(\'Среда\');\nend;"</item>
+        <item>"Сколько раз выполнится тело цикла в программе?\nVar N,i,S: integer;\nBegin\n N:=3;\n S:=0; i:=1;\n Repeat\n S:=S+i;\n i:=i+1;\n Until i>N;\n Writeln(\'S=\', S);\nEnd."</item>
+        <item>"4"</item>
+        <item>"0"</item>
+        <item>"3"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"Сколько раз будет выполнен внешний цикл?\nvar  I, j : integer;\nbegin\nfor I:=1 to 4 do\nbegin\n for j:=1 to 10 do\n write ( I*j:5);\n writeln;\n end;\nend."</item>
+        <item>"10"</item>
+        <item>"14"</item>
+        <item>"4"</item>
+        <item>"40"</item>
+        <item>"4"</item>
+        <item>"Что будет выедено на экран после выполнения программы?\nfor k:=1 to 4 do\nbegin\n for i:=1 to 5 do\n write(3, \'   \');\n writeln;\nend;"</item>
+        <item>"таблица, состоящая из 5 строчек, в каждой из которых число 3 напечатано 4 раза. "</item>
+        <item>"строка, в которой число 3 напечатано 4 раза. "</item>
+        <item>"строка, в которой число 3 напечатано 20 раз. "</item>
+        <item>"таблица, состоящая из четырех строчек, в каждой из которых число 3 напечатано 5 раз. "</item>
+        <item>"таблица, состоящая из четырех строчек, в каждой из которых число 3 напечатано 5 раз. "</item>
+        <item>"В Pascal ABC используются следующие подпрограммы:"</item>
+        <item>"функции"</item>
+        <item>"процедуры"</item>
+        <item>"процедуры и функции"</item>
+        <item>"прикладные подпрограммы"</item>
+        <item>"процедуры и функции"</item>
+        <item>"Параметры, описанные в заголовке функции, называются"</item>
+        <item>"формальными"</item>
+        <item>"правильными"</item>
+        <item>"фактическими"</item>
+        <item>"существенными"</item>
+        <item>"формальными"</item>
+        <item>"Число фактических параметров должно быть"</item>
+        <item>"не меньше числа формальных"</item>
+        <item>"больше числа формальных"</item>
+        <item>"меньше числа формальных"</item>
+        <item>"равно числу формальных"</item>
+        <item>"равно числу формальных"</item>
+
+
+    </string-array>
+    <string-array name="test_6">
+        <item>"Массив – это…"</item>
+        <item>"большой объем информации."</item>
+        <item>"совокупность строк и столбцов."</item>
+        <item>"упорядоченная по номерам совокупность значений объединенных общим именем и типом."</item>
+        <item>"числовые величины, объединенные общим именем, начинающимся с латинской буквы."</item>
+        <item>"упорядоченная по номерам совокупность значений объединенных общим именем и типом."</item>
+        <item>"Как правильно заполнить массив K случайными числами из промежутка [0;40]?"</item>
+        <item>"for i:=1 to N do K[i]:=random(20) ;"</item>
+        <item>"for i:=1 to N do K[i]:=random(40);"</item>
+        <item>"for i:=1 to N do K[i]:=random(41);"</item>
+        <item>"for i:=1 to N do K[i]:=random(20)+40;"</item>
+        <item>"for i:=1 to N do K[i]:=random(41);"</item>
+        <item>"Сколько элементов содержится в массиве         var c: array [3..10] of integer;"</item>
+        <item>"8"</item>
+        <item>"9"</item>
+        <item>"7"</item>
+        <item>"10"</item>
+        <item>"8"</item>
+        <item>"Какой ряд данных можно назвать массивом?"</item>
+
+        <item>"а, 4, б, 5, с, 6"</item>
+        <item>"3, 6, 3, 2, massiv"</item>
+        <item>"1, 5, 1, 8"</item>
+
+        <item>"A, 2.3, 5.7, 10.89"</item>
+        <item>"1, 5, 1, 8"</item>
+        <item>"Размерностью массива называется"</item>
+        <item>"количество элементов в массиве."</item>
+        <item>"идентификатор массива."</item>
+        <item>"значения элементов в массиве."</item>
+        <item>"количество байтов в массиве."</item>
+        <item>"количество элементов в массиве."</item>
+        <item>"Индекс – это…"</item>
+        <item>"признак числового массива"</item>
+        <item>"размерность массива"</item>
+        <item>"порядковый номер элемента в массиве"</item>
+        <item>"номер максимального элемента"</item>
+        <item>"порядковый номер элемента в массиве"</item>
+        <item>"Укажите правильное описание одномерного массива"</item>
+        <item>"var a: array [1..10] of  integer;"</item>
+        <item>"var a = array [1..10] of  integer;"</item>
+        <item>"var a: array [1, 10] of  integer;"</item>
+        <item>"var a: array [1…10] of  integer;"</item>
+        <item>"var a: array [1..10] of  integer;"</item>
+        <item>"Как правильно произвести ввод массива D с клавиатуры?"</item>
+        <item>"for i:=1 to N do write( D[i]:4) ;"</item>
+        <item>"for i:=1 to N do readln( D[N]);"</item>
+        <item>"for i:=1 to N do writeln( D[i]);"</item>
+        <item>"for i:=1 to N do readln (D[i]);"</item>
+        <item>"for i:=1 to N do readln (D[i]);"</item>
+        <item>"Как правильно произвести вывод массива E в строку?"</item>
+        <item>"for i:=1 to N do write( E[i]:4) ;"</item>
+        <item>"for i:=1 to N do readln( E[1..N]);"</item>
+        <item>"for i:=1 to N do writeln( E[i]);"</item>
+        <item>"for i:=1 to N do read (E[1,2,3,..,N]);"</item>
+        <item>"for i:=1 to N do write( E[i]:4) ;"</item>
+        <item>"Как правильно произвести вывод массива E в столбец?"</item>
+        <item>"for i:=1 to N do write( E[i]:4) ;"</item>
+        <item>"for i:=1 to N do readln( E[1..N]);"</item>
+        <item>"for i:=1 to N do writeln( E[i]);"</item>
+        <item>"for i:=1 to N do read (E[1,2,3,..,N]);"</item>
+        <item>"for i:=1 to N do writeln( E[i]);"</item>
+
+    </string-array>
+    <string-array name="test_7">
+        <item>"Укажите правильное описание двумерного массива:"</item>
+        <item>"a: array [1…n, 1…n] of real;"</item>
+        <item>"a: array {1..n,1..m} of  integer;"</item>
+        <item>"a: array [1..n, 1..m] of real;"</item>
+        <item>"a: aray  [1..n, 1..m]: integer."</item>
+        <item>"a: array [1..n, 1..m] of real;"</item>
+        <item>"Что определяет для массива A[1..n, 1..m] следующая программа \n
+          S:= 0;\n
+          For i:= 1 to n do\n
+              For  j:= 1 to m do\n
+                 If  A[i, j ] &#60;0  then S:=S+A[i, j ]; \n"</item>
+        <item>"минимальный элемент массива;"</item>
+        <item>"сумму отрицательных элементов массива;"</item>
+        <item>"максимальный элемент массива;"</item>
+        <item>"количество отрицательных элементов массива;"</item>
+        <item>"сумму отрицательных элементов массива;"</item>
+        <item>"Что определяет для массива X[1..n, 1..m] следующая программа \n
+
+          For i:= 1 to n do \n
+               For  j:= 1 to m do\n
+                      If  i mod 2 = 0 then X[i, j] = 2;\n"</item>
+        <item>"минимальный элемент массива;"</item>
+        <item>"элементы  четных столбцов матрицы заменяет на 2;"</item>
+        <item>"элементы  четных  строк матрицы заменяет на 2; "</item>
+        <item>"количество четных элементов массива;"</item>
+        <item>"элементы  четных столбцов матрицы заменяет на 2;"</item>
+        <item>"Что определяет для массива A[1..m, 1..m] следующая программа \n
+
+         For i:= 1 to m do \n
+               For  j:= 1 to m do\n
+                      If  i mod 2 &#60; > 0 then A[j, i] = 3;"</item>
+        <item>"элементы нечетных столбцов матрицы заменяет на 3;"</item>
+        <item>"элементы четных столбцов матрицы заменяет на 3;"</item>
+        <item>"элементы четных строк матрицы заменяет на 3; "</item>
+        <item>"элементы нечетных строк матрицы заменяет на 3; "</item>
+        <item>"элементы нечетных строк матрицы заменяет на 3; "</item>
+        <item>"Что определяет для массива X[1..n, 1..n] следующая программа\n
+
+                   S:=0;\n
+          For i:= 1 to n do\n
+               For  j:= 1 to n do\n
+                      If  i =n-j+1 then  S: = S+X[i, j];"</item>
+        <item>"сумма элементов главной диагонали матрицы;"</item>
+        <item>"элементы четных столбцов матрицы заменяет на 3;"</item>
+        <item>"элементы четных строк матрицы заменяет на 3"</item>
+        <item>"сумма элементов побочной диагонали матрицы;"</item>
+        <item>"сумма элементов побочной диагонали матрицы;"</item>
+        <item>"Что определяет для массивов X[1..n, 1..m] и Y[1..n, 1..m]  следующая программа\n
+
+          For  i:=1 to n do\n
+               For j:=1 to m do\n
+        X[i, j]: = X[i, j] + Y[i, j];"</item>
+        <item>"сумма элементов главной диагонали матрицы;"</item>
+        <item>"сумма элементов каждой строки матриц X и Y;"</item>
+        <item>"сумма матриц X и Y."</item>
+        <item>"количество равных  соответствующих элементов матрицы  X и матрицы Y;"</item>
+        <item>"сумма матриц X и Y."</item>
+        <item>"Что определяет для массива X[1..n, 1..m]  следующая программа\n
+
+          V:= 0;\n
+           For  i:=1 to n do\n
+               For j:=1 to m do\n
+        If  X[i, j] = A  then S:= S+1;"</item>
+        <item>"сумма элементов главной диагонали матрицы;"</item>
+        <item>"сумма элементов каждой строки матриц X и Y;"</item>
+        <item>"количество элементов матрицы равных  A;"</item>
+        <item>"количество равных  элементов матрицы  X;"</item>
+        <item>"количество элементов матрицы равных  A; "</item>
+        <item>"Что определяет для массива X[1..m, 1..m] следующая программа\n
+
+         For  i:=1 to m do\n
+               For j:=1 to n do\n
+        If  i = j then X[i, j] =2;"</item>
+        <item>"формирование матрицы, в которой элементы стоящие в нечетных столбцах равны 2, остальные равны 0;"</item>
+        <item>"формирование матрицы, в которой элементы стоящие на главной диагонали  равны 2, остальные равны 0;"</item>
+        <item>"формирование матрицы, в которой элементы стоящие в четных строках равны 2, остальные равны 0;"</item>
+        <item>"количество равных  элементов матрицы  X;"</item>
+        <item>"формирование матрицы, в которой элементы стоящие на главной диагонали  равны 2, остальные равны 0;"</item>
+        <item>"Что определяет для массива X[1..n, 1..m] следующая программа \n
+
+         For  i:=1 to n do\n
+               For j:=1 to m do\n
+        If  i mod 2 = 0 then X[i, j] =3;"</item>
+        <item>"формирование матрицы, в которой элементы стоящие в нечетных столбцах равны 3, остальные равны 0;"</item>
+        <item>"формирование матрицы, в которой элементы стоящие на главной диагонали  равны 3,остальные равны 0;"</item>
+        <item>"формирование матрицы, в которой элементы стоящие в четных строках равны 3,    остальные равны 0;"</item>
+        <item>"ничего не определяет"</item>
+        <item>"формирование матрицы, в которой элементы стоящие в четных строках равны 3,
+     остальные равны 0;
+"</item>
+        <item>"Что определяет для массива X[1..n, 1..m]  следующая программа \n
+
+         For  i:=1 to n do\n
+               For j:=1 to m do\n
+        If  j mod 2 &#60; > 0 then X[i, j] =4;"</item>
+        <item>"формирование матрицы, в которой элементы стоящие в нечетных столбцах равны 4, остальные равны 0;"</item>
+        <item>"формирование матрицы, в которой элементы стоящие на главной диагонали  равны 4, остальные равны 0;"</item>
+        <item>"формирование матрицы, в которой элементы стоящие в четных строках равны 4, остальные равны 0;"</item>
+        <item>"количество равных  элементов матрицы  X;"</item>
+        <item>"формирование матрицы, в которой элементы стоящие в нечетных столбцах равны 4, остальные равны 0;"</item>
+        <item></item>
+
+    </string-array>
+    <string-array name="test_8">
+        <item>"Какой результат вернет функция length(s), усли s:=’компьютер’?"</item>
+        <item>"7"</item>
+        <item>"8"</item>
+        <item>"9"</item>
+        <item>"0"</item>
+        <item>"9"</item>
+        <item>"Какой результат вернет функция pos(s1,s), если s:=\’информатика\’; s1:=\’форма\’?"</item>
+        <item>"2"</item>
+        <item>"1"</item>
+        <item>"5"</item>
+        <item>"3"</item>
+        <item>"3"</item>
+        <item>"Какой результат вернет функция copy(s,p,n), если s:=\’информатика\’; p:=3; n:=6?"</item>
+        <item>"матика"</item>
+        <item>"фор"</item>
+        <item>"форма"</item>
+        <item>"формат"</item>
+        <item>"формат"</item>
+        <item>"Определите результат выполнения процедуры delete(s,p,n), если s:=\’информатика\’; p:=4; n:=7?"</item>
+        <item>"инфа"</item>
+        <item>"инфо"</item>
+        <item>"информ"</item>
+        <item>"инф"</item>
+        <item>"инфа"</item>
+        <item>"Определите результат выполнения процедуры insert (s1,p,n), если s:=\’реактор\’; s1:=\’д\’; p:=3?"</item>
+        <item>"реакторр"</item>
+        <item>"директор"</item>
+        <item>"реакдтор"</item>
+        <item>"редактор"</item>
+        <item>"редактор"</item>
+        <item>"Какой результат вернет функция pos (\‘мышь\’,\’камыш\’)"</item>
+        <item>"0"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"0"</item>
+        <item>"Какой результат вернет функция copy (\‘алгоритм\’, 3, 5)"</item>
+        <item>"горим"</item>
+        <item>"горит"</item>
+        <item>"гор"</item>
+        <item>"гори"</item>
+        <item>"горит"</item>
+        <item>"Какой процедурой преобразовывается строковое представление числа s в число v?"</item>
+        <item>"Val (s, v, code)"</item>
+        <item>"Copy(v,s)"</item>
+        <item>"Delete(v,s)"</item>
+        <item>"Str(v,s,code)"</item>
+        <item>"Val (s, v, code)"</item>
+        <item>"Какой процедурой число v преобразуется в строку s?"</item>
+        <item>"Val (s, v)"</item>
+        <item>"Copy(v,s)"</item>
+        <item>"Delete(v,s) "</item>
+        <item>"Str(v,s)"</item>
+        <item>"Val (s, v)"</item>
+        <item>"Какую функцию используют для получения случайных величин?"</item>
+        <item>"Read"</item>
+        <item>"Real"</item>
+        <item>"Random"</item>
+        <item>"val"</item>
+        <item>"Random"</item>
+
+
+    </string-array>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="lesson0">Введение</string>
+    <string name="lesson1">Урок 1(Целочисленные вычисления)</string>
+    <string name="lesson2">Урок 2(Использование модуля CRT)</string>
+    <string name="lesson3">Урок 3(Графический модуль GraphABC)</string>
+    <string name="lesson4">Урок 4(Цикл for)</string>
+    <string name="lesson5">Урок 5(Оператор if)</string>
+    <string name="lesson6">Урок 6(Оператор case)</string>
+    <string name="lesson7">Урок 7(Операторы цикла While и Repeat … Until)</string>
+    <string name="lesson8">Урок 8(Вещественные вычисления на языке Pascal)</string>
+    <string name="lesson9">Урок 9(Подпрограммы на языке Pascal)</string>
+    <string name="lesson10">Урок 10(Подпрограммы на языке Pasca)</string>
+    <string name="lesson11">Урок 11(Способы передачи параметров)</string>
+    <string name="lesson12">Урок 12(Массивы)</string>
+    <string name="lesson13">Урок 13(Сортировка массивов)</string>
+    <string name="lesson14">Урок 14(Работа с файлами)</string>
+    <string name="lesson15">Урок 15(Символьные переменные и строки символов)</string>
+    <string name="lesson16">Урок 16(Множества)</string>
+    <string name="lesson17">Урок 17(Вычислительные программы – квадратное уравнение)</string>
+    <string name="content_lesson0">
+             <b>Справочник по системе ABC Pascal</b> \n
+ <b><i>Редактор</i></b> \n <i><b>Горячие клавиши</b></i> \n  <b>F2, Ctrl-S</b> - сохранить файл;\n  <b>F3, Ctrl-O</b> - загрузить файл;\n  <b>F12</b> - сохранить файл под новым именем;\n  <b>Ctrl-Shift-S</b> - сохранить все открытые файлы;\n  <b>Ctrl-Shift-0 ... Ctrl-Shift-9</b> - установить закладку с номером 0...9;\n  <b>Ctrl-0 ... Ctrl-9</b> - перейти к закладке с номером 0...9;\n  <b>Ctrl-Tab, Ctrl-Shift-Tab</b> - перейти к следующему/предыдущему окну редактора.\n\n
+ <b><i>Окно вывода</i></b>\nПод окном редактора расположено окно вывода. Оно предназначено для вывода данных процедурами write и writeln, а также для вывода сообщений об ошибках и предупреждений во время работы программы.\nОкно вывода может быть скрыто. Клавиша F5 и кнопка  показывают/скрывают окно вывода. Для скрытия окна вывода используется также клавиша Esc.\nОкно вывода обязательно открывается при любом выводе в него.\nДля очистки окна вывода следует нажать комбинацию клавиш Ctrl-Del.\n\n
+ <b><i>Окно ввода</i></b>\nОкно ввода открывается при выполнении процедур read и readln в ходе работы программы:\nВвод данных в окно ввода сопровождается эхо-выводом в окно вывода. После нажатия клавиши Enter данные из окна ввода попадают в соответствующие переменные, окно ввода закрывается, и программа продолжает работать дальше.\n\n
+ <b><i>Запуск и остановка программы</i></b>\nДля запуска программы в текущем окне редактора следует нажать клавишу F9 или кнопку  панели инструментов.\nПрограмма вначале компилируется во внутреннее представление, после чего, если не найдены ошибки, программа начинает выполняться. При выполнении программы кнопка запуска программы становится неактивной, кнопка останова программы, наоборот, активной и в строке статуса отображается информация "Программа выполняется".\n Выполнение программы можно в любой момент прервать нажатием комбинации клавиш Ctrl-F2. При этом в окне вывода появится сообщение  \"Программа прервана пользователем\".\nЕсли текущая программа не является модулем, то при ее запуске на вкладке перед именем появляется жирная точка, что свидетельствует о том, что данную программу запускали последней. Если текущая программа является модулем, то компилируется не она, а программа, чье имя на вкладке помечено точкой.\n При выводе в графическое окно модуля GraphABC программу можно прервать нажатием клавиши Esc, при этом графическое окно будет закрыто.\n\n
+ <i><b>Пошаговое выполнение программы</b></i>\nРежим пошагового выполнения предназначен для отладки программы. Для выполнения одного шага (одной строки) программы следует нажать клавишу F8 (шаг без входа в подпрограмму), либо клавишу F7 (шаг со входом в подпрограмму). Для выполнения программы до данной строки следует установить на нее курсор и нажать клавишу F4.\nПрервать программу, находящуюся в режиме пошагового выполнения, можно с помощью комбинации клавиш Ctrl-F2. Если программа находится в режиме пошагового выполнения, то ее можно выполнить до конца, нажав F9.\n\n
+
+ <i><b>Окно отладки</b></i>\nОкно отладки позволяет просматривать во время пошагового исполнения программы значения переменных. По умолчанию оно располагается в правом верхнем углу окна редактора\nДля добавления переменной или выражения в окно отладки следует нажать комбинацию клавиш CtrlF5. Можно также перетащить из редактора в окно отладки выделенное выражение или при активном окне отладки нажать клавишу Ins. Допускаются выражения, содержащие функции, в т.ч. и определенные в программе.\nОкно отладки включается/выключается нажатием комбинации клавиш Ctrl-Shift-W.\nДля удаления строки из окна отладки следует выделить эту строку и нажать клавишу Del или воспользоваться командой контекстного меню окна отладки.\nДля изменения строки в окне отладки следует дважды щелкнуть на ней.\nДля очистки окна отладки следует нажать комбинацию клавиш CtrlDel или воспользоваться командой контекстного меню окна отладки.\nЕсли выражение неверно, его вычисление вызывает ошибку или в данном контексте недоступны некоторые переменные, то при выполнении программы в столбце "Значение" появляется сообщение "нельзя вычислить".\n\n
+ <b><i>Структура программы</i></b> \n     Программа на языке Pascal ABC имеет следующий вид:\n\n   program имя программы;\n   раздел подключения модулей \n   раздел описаний begin\n   операторы \n   end.\nПервая строка называется заголовком программы и не является обязательной.\nРаздел подключения модулей начинается со служебного слова uses, за которым следует список имен модулей, перечисляемых через запятую.\nРаздел описаний может включать разделы описания переменных, констант, типов, процедур и функций, которые следуют друг за другом в произвольном порядке.\nРаздел подключения модулей и раздел описаний могут отсутствовать.\nОператоры отделяются один от другого символом "точка с запятой".\n\n
+ <b><i>Идентификаторы и служебные слова</i></b> \nИдентификаторы служат в качестве имен программ, модулей, процедур, функций, типов, переменных и констант. Идентификатором считается любая последовательность латинских букв или цифр, начинающаяся с буквы. Буквой считается также символ подчеркивания "_". \nНапример, a1, _h, b123 - идентификаторы, а 1a, ф2 – нет.\nСлужебные слова служат для оформления конструкций языка и не могут быть использованы в качестве имен. Список всех служебных слов языка Pascal ABC приведен ниже:  \n<i>and array as begin break case class const constructor continue destructor div do downto else end exit external external sync file finalization for forward function if in inherited initialization is mod not of or private procedure program property protected public  record repeat set shl  shr sizeof string then to  type unit until uses var while with xor</i>
+    </string>
+    <string name="content_lesson1">
+        <b><i>Целочисленные вычисления на языке Pascal</i></b>\n
+         <b>Термины:</b>\n
+          var  – <i>начало секции описания переменных</i>\n
+          a, b, Prog1  – <i>идентификаторы (имена) различных объектов</i>\n
+          a, b   – <i>переменные целочисленного (integer) типа</i>\n
+          integer   – <i>целочисленный тип</i>\n
+          write, writeln – <i>операторы вывода</i>\n
+          readln  – <i>оператор ввода</i>\n
+          b:=a+1  – <i>оператор присваивания (переменной b присваивается значение выражения a+1)</i>\n
+          begin ... end – <i>операторные скобки</i>\n\n
+         <b>Переменная</b> – это величина, которая может менять свое значение. Переменная всегда должна быть явно описана как принадлежащая какому-либо типу данных.\n
+        \n<b>Тип данных</b> – множество значений, которые может принимать объект (чаще всего это переменная) данного типа. Кроме множества значений тип данных задает множество допустимых операций. Например, целочисленный тип integer определяет диапазон целых чисел от –2 147 483 648 до +2 147 483 647, в целочисленных выражениях можно применять операции сложения, вычитания и т.п.\n
+        \n<b>Непосредственные константы</b> – это числа, используемые в арифметических выражениях. Например, в операторе b:=a+1 единица – это непосредственная константа.\n
+        \n<b>Правила записи целых чисел.</b> Целые числа записываются так же, как и в математике. Цифрам может предшествовать знак "–" или "+" (последнее обычно не нужно). Пробелы между знаком и цифрами, а также между цифрами недопустимы. Примеры правильных записей чисел:  1, 123,  –4567, 003, +012.\n
+        \n<b>Оператор</b> – инструкция языка Паскаль. Операторы отделяются точкой с запятой друг от друга. Операторы можно объединить в составной оператор, заключив их в операторные скобки  begin ... end.\n
+        \n<b>Оператор присваивания.</b> Оператор присваивания обозначается двумя символами :=, между которыми нет пробела. Слева от знака оператора должна стоять переменная, а справа – выражение. Суть оператора заключается в вычислении выражения и присвоения получившегося значения переменной.\n
+         Примеры:  <i>a:=2; a:=2+3;  a:=b*2+1;</i>\n
+        Неправильные примеры: <i>a+1:=a;  2:=b+3;</i>\n
+        Очень часто используется оператор вида  a:=a+1; Он не содержит ошибки. Вначале берется старое значение переменной, к нему прибавляется единица, и результат записывается в опять в переменную a. Таким образом, этот оператор увеличивает значение переменной a на единицу.\n
+        Важно следить, чтобы все переменные, используемые в правой части оператора присваивания были определены к моменту вычисления оператора. В противном случае результат будет непредсказуем.\n
+        Существует два способа задать переменной значение: оператор присваивания и оператор ввода (read или readln).\n
+        \n<b>Согласование типов в операторе присваивания.</b> Общее правило таково: тип выражения в правой части оператора присваивания должен совпадать с типом переменной в левой части оператора присваивания. Т.е. если переменная имеет тип integer, то справа должно быть выражение, значение которого есть также целое число.\n
+        \n<b>Арифметическое выражение</b> – целочисленное арифметическое выражение состоит из переменных, констант, знаков операций, скобок и вызовов функций. Правила построения выражения очень похожи те, которые употребляются в математике, за исключением деления, для которого существуют две операции, обозначаемые ключевыми словами div и mod. Надо запомнить, что знак операции умножения * никогда не опускается в отличие от алгебры. Операции имеют обычный приоритет: умножение и деление выполняется раньше, чем сложение и вычитание. Вычисление функций (см. далее) выполняется еще раньше. В остальном операции выполняются слева направо. Для изменения порядка операций используются круглые скобки. Уровень вложенности скобок не ограничен.\n
+        Кроме бинарных операций в Паскале используются унарные2 операции – и + (в последнем особого смысла нет). Например, в выражении  –2*(–a–b) минус перед переменной a является унарной операцией, а минус перед двойкой может рассматриваться и как унарная операция и как запись отрицательной константы.\n
+        При выполнении оператора присваивания следует следить за тем, чтобы значение целочисленного выражения не вышло за допустимый диапазон целого числа. Например, если переменная a имеет тип word, то в операторе a:=512*128; произойдет ошибка, так как значение выражения является 65536, а это число больше верхней границы типа word. Отметим, что если бы переменная a описана как integer, то оператор a:=512*128; является допустимым. Без особой необходимости не следует использовать типы byte и word.\n
+        \n<b>Консольный ввод/вывод</b> – исторически самый «древний» способ диалога с компьютером. У первых ЭВМ консоль – это электрическая пишущая машинка, подключенная к компьютеру, печатающая на рулонной бумаге (как факс). Оператор мог вводить информацию в компьютер, завершая команду нажатием клавиши перевода строки (Enter). Компьютер отвечал, заставляя консоль печатать цифры и символы. Несмотря на простоту такого интерфейса3, он весьма эффективен и до сих пор используется в самых современных операционных системах. В Windows-системах консоль обычно представляет текстовое окно шириной 80 символов, а высотой 25 символов4. При достижении ввода или вывода последней строки все строки скроллируются на одну позицию вверх, а первая строка исчезает.\n
+        \n<b>Операторы вывода</b> – write и writeln выводят заданную информацию на консоль. Оператор writeln после этого еще и переводит курсор на следующую строку (при достижении последней строки осуществляется скроллинг). Операторы могут иметь произвольное число аргументов, разделенных запятыми. В качестве аргументов могут выступать буквальные константы (например, строки символов) и переменные стандартных типов (в т.ч. и целочисленные).\n
+        \n<b>Форматы вывода.</b> В операторах write и writeln можно указывать формат, определяющий число позиций, используемых для вывода целого числа на экран, например:\n
+        Это означает, что для вывода значения, хранящегося в переменной a следует зарезервировать 5 символов, т.е. если число будет не пятизначным, то при выводе оно будет дополнено слева пробелами. Если число «не помещается» в формат, он будет автоматически «растянут», так чтобы число «влезло».\n
+        <b>Оператор ввода</b> – <i>read, readln</i>. Оператор read при чтении данных с консоли используется крайне редко, в основном используется оператор readln. Параметры оператора – только переменные и только стандартных типов, возможно использование оператора вообще без аргументов для создания ситуации ожидания нажатия клавиши Enter. По оператору readln программа приостанавливает свою работу, ожидая ввода данных от пользователя. Пользователь набирает желаемые значения переменных, разделяя их пробелами (или Enter) и нажимает Enter. Оператор интерпретирует введенные символы, переводя их во внутреннее (машинное) представление соответствующих переменных. Если это не удается (например, вместо целого числа введены буквы), программа аварийно завершает свою работу.\n
+        Пример:  <i>readln(a,b);</i>\n
+        Недопустимо: <i>readln(a+3);</i>\n
+        Для того чтобы пользователь знал что «хочет» ввести программа, полезно перед оператором readln выводить подсказку с помощью оператора write или writeln.\n
+        \n<b>Встроенные функции</b> – в языке Pascal предусмотрено большое число различных встроенных функций. Функции можно применять в выражениях, аргумент(ы) функции всегда заключаются в скобки, например:  x:=x-abs(x). Функции требуют аргументы определенных типов (например, целого типа) и возвращают значение также определенного типа (может не совпадать с типом аргумента). Ниже приведен список арифметических функций, имеющих целочисленный аргумент.\n
+              <b>sqr(n) </b>-Возвращает квадрат аргумента. Необходимо помнить о диапазоне возвращаемого значения.\n
+              <b>abs(n) </b>-Возвращает модуль (абсолютное значение) числа.\n
+              <b>pred(n) </b>-Возвращает значение, на единицу меньшее аргумента.\n
+              <b>succ(n) </b>-Возвращает значение, на единицу большее аргумента.\n
+              <b>odd(n) </b>-Возвращает TRUE, если аргумент нечетный, иначе – FALSE\n
+              <b>even(n) </b>-Возвращает TRUE, если аргумент четный, иначе – FALSE\n
+              <b>chr(n) </b>-Возвращает символ (тип char) с кодом n.\n
+              <b>random(n) </b>-Возвращает случайное число в диапазоне от 0 до n-1.\n
+    </string>
+    <string name="content_lesson2">
+                 <b>Использование модуля CRT</b>\n\n
+        Язык Паскаль имеет специальную библиотеку работы с экраном в текстовом режиме. Она называется CRT5. Эта библиотека содержит набор подпрограмм, позволяющих задавать цвет выводимых букв, цвет фона, устанавливать курсор в желаемую позицию. В текстовом режиме считается, что окно содержит 25 строк по 80 колонок. В каждой позиции может быть один символ (буква, цифра, специальные знаки). Графические объекты (прямые, окружности и т.п.) в текстовом окне не допустимы. Модуль CRT эмулирует текстовый терминал первых персональных компьютеров.
+        \n\nПодключение библиотеки к программе осуществляется предложением Uses:
+        \nProgram Card; \nUses CRT; { Это предложение вставляется сразу после Program }  \nДалее могут идти описания переменных, затем begin и тело программы.
+        Рассмотрим использование подпрограмм этой библиотеки на примере создания заставки программы.\n\n
+        Program Card;   \nUses CRT;  { Подключить модуль CRT } \nbegin  \nClrScr;               { Очистить экран }  \nTextColor(White);     { Установить белый цвет букв }  \nTextBackGround(Blue); { Установить синий цвет фона }  \nGotoXY(36,13);     { Поставить курсор в 36 колонку, 13 строку }  \n end.\n\n
+        Наберите текст этой программы и выполните её.\n\n
+        Разберем действия отдельных процедур:\n\n
+          ClrScr – очищает экран или текущее окно (от англ. Clear Screen), закрашивая его текущим цветом фона, установленным процедурой TextBackGround. По умолчанию – цвет экрана белый.\n  TextColor(цвет) – устанавливает текущий цвет букв, который будет исполь– зоваться операторами write и writeln. По умолчанию используется светло-серый цвет букв.\n  TextBackgroud(цвет) – устанавливает текущий цвет фона, который будет использоваться операторами write и writeln.\n  GotoXY(колонка, строка) – переводит курсор в указанную позицию; вывод, осуществляемый последующим оператором write или writeln будет начинаться с этой позиции. Обычно экран в текстовом режиме содержит 80 колонок и 25 строк.
+          <b>Таблица цветов:</b>\n\n
+        \nBlack Черный \nDarkGray Темно-серый \nBlue Синий \nLightBlue Светло-синий \nGreen Зеленый \nLightGreen Светло-зеленый \nCyan Небесно голубой \nLightCyan Ярко-голубой \nRed Красный \nLightRed Светло-красный \nMagenta Малиновый \nLightMagenta Светло-малиновый \nBrown Коричневый \nYellow Желтый \nLightGray Светло-серый \nWhite Белый\n\n
+        Рассмотрим еще несколько полезных подпрограмм. \n\n
+          <b>Window(x1,y1,x2,y2)</b> – создание окна вывода. В случае задания окна, все операторы write и writeln выводят только в него, процедура ClrScr будет очищать только это окно.\n  <b>WhereX, WhereY</b> – две функции, позволяющие узнать координаты местонахождения курсора. <i>Пример использования: GotoXY(WhereX+10,WhereY+2).</i>
+
+    </string>
+    <string name="content_lesson3">
+               <b>Графический модуль GraphABC</b>\n\n
+            Система ABC Pascal обладает великолепной графической библиотекой. Для ее модключения после заголовка программы необходимо написать Uses GraphABC. Модуль GraphABC содержит константы, типы, процедуры и функции для рисования в графическом окне. Они подразделяются на несколько групп:\n
+             -Графические примитивы\n -Действия с цветом\n -Действия с точками и прямоугольниками\n -Действия с пером\n -Действия с кистью\n -Действия со шрифтом\n -Действия с рисунками\n -Действия с графическим окном\n\n
+            Рассмотрим сразу пример:\n  Program Gr01;\n  Uses GraphABC;\n  begin\n  SetWindowSize(256,256);\n  SetPenColor(RGB(0,0,255));\n  Line(0,0, WindowWidth, WindowHeight)\n  Line(0,WindowHeight, WindowWidth, 0)\n  end.\n\n
+            Процедура SetWindowSize устанавливает размер графического окна 256×256 пикселей. Процедура SetPenColor определяет цвет рисования линий. Функция RGB возвращает цвет, заданный своими Red, Green, Blue компонентами. Процедура Line рисует линию из точки, заданной первой парой координат, в точку, заданную второй парой координат. Функции WindowWidth и WindowHeight возвращают текущие значения ширины и высоты графического окна (следовательно, если вы поменяете размер окна в процедуре SetWindowSize, то линии все равно будут проводиться из угла в угол).\n\n
+            Как известно восприятие цвета у человека трехцветное. Основываясь на этом, в графических библиотеках используется именно такое трехкомпонентное представление цвета. Цвет задается с помощью функции\n
+            rgb(Red,Green,Blue)\n
+            Здесь\n  -Red – число от 0 до 255, соответствующее интенсивности красной компоненты\n  -Green – число от 0 до 255, соответствующее интенсивности зеленой компоненты\n  -Blue – число от 0 до 255, соответствующее интенсивности синей компоненты\n\n
+            Функция формирует целое число (integer), которое может использоваться везде в графической библиотеке, где требуется указание цвета. Есть несколько предопределенных цветов:\n
+               clBlack – черный   clPurple – фиолетовый\n  clWhite – белый   clMaroon – темно-красный\n   clRed – красный   clNavy – темно-синий\n   clGreen – зеленый  clBrown – коричневый\n   clBlue – синий   clSkyBlue – голубой\n   clYellow – желтый   clCream – кремовый\n   clAqua – бирюзовый   clOlive – оливковый\n   clFuchsia – сиреневый   clTeal – сине-зеленый\n   clGray – серый   clLime – ярко-зеленый\n   clLightGray – светло-серый   clMoneyGreen – цвет зеленых денег\n   clDarkGray – темно-серый\n\n
+            Задание стиля и цвета пера\n
+            -SetPenColor(цвет) – устанавливает цвет пера, задаваемый параметром color.\n-SetPenWidth(ширина) – устанавливает ширину пера.\n-SetPenStyle(стиль) – устанавливает стиль пера (сплошной, пунктир и т.п.), возможные значения указаны в таблице (стиль применим только к ширине пера 1 пиксел)\n\n
+            Текущее перо используется для рисования линий, прямоугольников, ломаных, окружностей, эллипсов, дуг и т.п.\n\n
+            Пример:\n
+              Program Gr03;\n  Uses GraphABC;\n  Var i,j : integer;\n  begin\n   SetWindowSize(512,512);\n   SetBrushColor(rgb(128,0,255));\n   SetBrushStyle(bsDiagCross);\n   Rectangle(10,10,WindowWidth-10,WindowHeight-10);\n  end.\n\n
+            Пример:\n
+               Program Gr02;\n   Uses GraphABC;\n   Var i : integer;\n   begin\n   SetWindowSize(512,512);\n   SetPenStyle(psDash);\n   SetBrushStyle(bsClear);\n   Circle(256,256,WindowHeight div 2);\n   end.\n\n
+            Задание стиля и цвета кисти\n -SetBrushColor(цвет) – устанавливает цвет кисти\n -SetBrushPicture(имя файла) – устанавливает в качестве образца для закраски кистью образец, хранящийся в файле, при этом текущий цвет кисти при закраске игнорируется.\n -ClearBrushPicture – очищает рисунок-образец, выбранный для кисти.\n -SetBrushStyle(стиль) – устанавливает стиль кисти, задаваемый параметром bs.\n\n
+            Возможные стили кисти:\n
+            bsSolid   bsClear  bsCross   bsDiagCross   bsHorizontal   bsBDiagonal   bsVertical   bsFDiagonal\n\n
+            Текущей кистью закрашиваются все замкнутые фигуры, контур фигур рисуется текущим пером. Чтобы нарисовать не закрашенную фигуру, используйте  SetBrushColor(bsClear). \n\n
+            Пример:\n
+              Program Gr03;\n  Uses GraphABC;\n  Var i,j : integer;\n  begin\n   SetWindowSize(512,512);\n   SetBrushColor(rgb(128,0,255));\n  SetBrushStyle(bsDiagCross);\n   Rectangle(10,10,WindowWidth-10,WindowHeight-10);\n   end.\n\n
+            Некоторые графические примитивы\n -Line(x1,y1,x2,y2) – рисует отрезок с началом в точке (x1,y1) и концом в точке (x2,y2).\n -Circle(x,y,r) – рисует окружность с центром в точке (x,y) и радиусом r.\n -Ellipse(x1,y1,x2,y2) –  рисует эллипс, заданный своим описанным прямоугольником с координатами противоположных вершин (x1,y1) и (x2,y2).\n -Rectangle(x1,y1,x2,y2) – рисует прямоугольник, заданный координатами противоположных вершин (x1,y1) и (x2,y2).\n -RoundRect(x1,y1,x2,y2,w,h) – рисует прямоугольник со скругленными краями; (x1,y1) и (x2,y2) задают пару противоположных вершин, а w и h – ширину и высоту эллипса, используемого для скругления краев.\n -Arc(x,y,r,a1,a2) –  рисует дугу окружности с центром в точке (x,y) и радиусом r, заключенной между двумя лучами, образующими углы a1 и a2 с осью OX (a1 и a2 – вещественные, задаются в градусах и отсчитываются против часовой стрелки).\n -Pie(x,y,r,a1,a2) – рисует сектор окружности, ограниченный дугой (параметры процедуры имеют тот же смысл, что и в процедуре Arc).\n -Chord(x,y,r,a1,a2) – рисует фигуру, ограниченную дугой окружности и отрезком, соединяющим ее концы (параметры процедуры имеют тот же смысл, что и в процедуре Arc).\n -FloodFill(x,y,color) – закрашивает область одного цвета, начиная с точки (x,y) цветом color.\n\n
+    </string>
+    <string name="content_lesson4">
+          <b>Цикл for</b>\n\n
+        <b>Цикл for</b> используется для повторения фрагментов программы заданное число раз.\n\n
+        <b>Составной оператор</b> – это группа операторов, заключенная в операторные скобки  begin ... end.\n\n
+        Синтаксис оператора:\n    for i:=N1 to N2 do оператор;\n  или\n    for i:=N1 to N2 do\n     begin\n      оператор1;\n       оператор2;\n       ....\n    end;\n\n
+        Здесь\n  i  – индекс цикла (обязательно переменная целочисленного типа),\n  N1  – целочисленное выражение, определяющее нижнюю границу индекса цикла,\n  N2  – целочисленное выражение, определяющее верхнюю границу индекса цикла,  N2 должно быть больше или равно N1, для того чтобы цикл выполнился хоть один раз.\n\n
+        Алгоритм выполнения оператора такой:\n
+        1. Индексу цикла присваивается значение выражения N1. \n2.Проверяется условие.Если уловие верно, то переход к п. 3, иначе к п.6. \n3. Выполняются операторы тела цикла. \n4. Значение индекса цикла увеличивается на единицу (автоматически!). \n5. Переход к п. 2. \n6. Конец цикла.\n\n
+        Пример:\n
+        Построить таблицу квадратов чисел от 1 до 10.\n
+        Program Square;\n var i, j : integer;\n begin\n  for i:=1 to 10 do\n  begin\n   j:=sqr(i);\n    writeln(i:4,j:4);\n  end;\n end.\n
+        или проще:\n  Program Square;\n var i: integer;\n begin\n  for i:=1 to 10 do\n     writeln(i:4,sqr(i):4);\n end.\n\n
+        Обратите внимание на указание формата вывода целого числа в операторе writeln.Число после двоеточия указывает на количество символов, отводимых для представления целого числа. Если число занимает меньшее количество цифр, то при выводе оно слева дополняется необходимым числом пробелов.\n\n
+        <b>Цикл for … downto</b>\n\n
+        Иногда возникает желание выполнить цикл for наоборот, так чтобы индекс цикла не возрастал, а убывал. Эту возможность реализует следующая конструкция:\n    for i:=N2 to N1 do оператор;\n  Здесь подразумевается, что N2 должно быть больше или равно N1.\n\n
+
+    </string>
+    <string name="content_lesson5">
+            <b>Оператор if</b>\n\n
+        В языке Pascal существуют операторы, позволяющие изменить линейный ход программы. Их можно разделить на две группы: развилки и циклы.\n
+        <b>Развилки:</b> <i> if ... then ... else ...; if ... then; case</i>\n
+        <b>Циклы:</b> while; repeat ... until; for\n\n
+            <b>Развилки</b>\n
+        <b>Оператор if</b>\n    Синтаксис оператора:\n
+            if логическое условие then оператор-1 else оператор-2;\n
+        Пример:\n
+            if x>0 then z:=1 else z:=–1;\n
+        Выполнение оператора начинается с проверки логического условия, если оно истинно, то выполняется оператор-1, иначе оператор-2. В качестве оператора может выступать простой оператор или составной оператор. Составной оператор – это группа операторов, заключенная в операторные скобки begin ... end.\n\n
+        Пример:\n   if x>0 then begin\n    z:=1;\n     x:=2*x;\n      end\n         else begin\n                z:=-1;\n    x:=-x;\n      end;\n\n
+        Обратите внимание, что перед else точка с запятой не ставится. Точка с запятой используется только для разделения операторов друг от друга. Можно было бы и не ставить запятую после операторов x:=2*x  и  x:=-x, поскольку begin и end не являются операторами, а являются скобками. Паскаль будет интерпретировать8 точку с запятой перед end, как наличие пустого оператора между ней и end.\n\n
+        Обратите внимание на запись “лесенкой”, она не обязательна, но весьма желательна, поскольку помогает наглядно увидеть алгоритмическую структуру программы. Правило такое: end пишем под begin.\n\n
+            <b>Оператор if (сокращенная форма)</b>\n
+        Часто встречается ситуация, когда ветвь else не нужна. В этом случае ее можно опустить. Например:  if x меньше 0 then x:=-x;  Обратите внимание, что точка с запятой ставится после оператора x:=-x в отличие от полной формы.\n\n
+        Program OddEven;\n { Определение четного или нечетного числа }\n var n : integer;\n begin\n  write(\'Введите число n\');\n readln(n);\n  if odd(n) then writ(\'Число нечетное\')\n  else writ(\'Число четное\');\n end.\n\n
+        <b>Вложенные операторы if</b>\n\n
+        Иногда возникает необходимость устроить развилку на более чем две ветви. В этом случае операторы if можно вкладывать один в другой. С точки зрения алгоритмической корректности лучше, если вложенный оператор находится в ветви else. Приведем сразу пример программы\n
+        Program Sign;\n { Определение знака числа }\n var n : integer;\n begin\n write(\'Введите число \');\n readln(n);\n  if n>0 then writeln(\'Число положительное\')\n  else if n=0 then writeln(\'Число ноль\')\n else writeln(\'Число отрицательное\')\n end.\n\n
+        Обратите внимание, что после вложенный оператор if можно не заключать в операторные скобки begin ... end, поскольку оператор if синтаксически рассматривается как один оператор.\n\n
+        Если имеются вложенные операторы if, один из которых неполный, например:\n  if n>0 then if n=0 then writeln(\'У вас ноль\')\n else writeln(\'Число положительное\')\n
+        возникает неоднозначность: к какому if относится else. Принято, что else относится к ближайшему if, т.е. таки образом, как отражает запись данного примера. Если следовать правилу, помещая, по возможности, вложенные операторы в ветвь else, то таких ситуаций не будет.\n\n
+         <b>Логические выражения.</b> В операторе if используются логические выражения, имеющие тип boolean. Про такие выражения можно сказать только являются ли они истинными (true) или ложными (false). Простейший случай логического выражения – логическая переменная.\n
+        Пример:\n
+        var b : boolean;\n . . . . . .\n b:=true;\n . . . . . .\n if b then writeln(\'Все в порядке\');\n\n
+        Такие логические переменные называют флагами, иногда их использование оказывается очень эффективным решением.\n\n
+            <b>Логические операции.</b>\n Для составления сложных логических выражений могут использоваться две бинарные логические операции AND, OR и одна унарная11 NOT.\n   <i>and</i> – результат операции истинен тогда и только тогда, когда истины оба операнда.\n <i>or</i>  – результат операции истинен тогда, когда истинен хотя бы один операнд.\n <i>not</i> – имеет результат противоположный операнду.
+    </string>
+    <string name="content_lesson6">
+            <b>Оператор case</b>\n\n
+        Оператор case используется для создания развилки на более чем 2 ветви. Понять его работу поможет следующий пример.\n\n
+        Program YourMark;\n { ваша отметка }\n var n : integer;\n begin\n  write(\'Введите вашу отметку \');\n readln(n);\n  case n of\n   2 : writeln(\'Плохо\');\n   3 : writeln(\'Удовлетворительно\');\n   4 : writeln(\'Хорошо\');\n   5 : writeln(\'Отлично\');\n  end;\n end.\n\n
+        Обратите внимание, что оператор case заканчивается скобкой end.\n Если пользователь введет отметку, не попадающую в диапазон 2-5, то никаких действий выполняться не будет. Можно, конечно, обработать и эту ситуацию. Тогда синтаксис оператора case будет такой:\n\n
+        Program YourMark2;\n { ваша отметка }\n var n : integer;\n begin\n  write(\'Введите вашу отметку \');\n readln(n);\n  case n of\n   2 : writeln(\'Плохо\');\n   3 : writeln(\'Удовлетворительно\');\n   4 : writeln(\'Хорошо\');\n   5 : writeln(\'Отлично\')\n   else writeln(\'Вы ввели недопустимую отметку!\')\n  end;\n end.\n\n
+        Обратите внимание на отсутствие точки с запятой перед else и двоеточия после else.\n\n Кроме единичных значений переключателя n можно указывать диапазон значений.\n\n
+        Program YourMark3;\n { ваша отметка }\n var n : integer;\n begin\n  write(\'Введите вашу отметку \');\n readln(n);\n  case n of\n   2..3 : writeln(\'Это все очень плохо!\');\n   4    : writeln(\'Хорошо!\');\n   5..6 : writeln(\'Так держать!\')\n   else   writeln(\'Вы ввели недопустимую отметку!\')\n  end;\n end.\n\n
+        
+    </string>
+    <string name="content_lesson7">
+            <b>Операторы цикла While и Repeat … Until</b>\n\n
+        Мы уже познакомились с оператором цикла for, который используется в тех случаях, когда число повторений тела цикла известно заранее. В языке Pascal существуют еще два оператора цикла, которые используются в тех случаях, когда число повторений цикла заранее не известно, либо сложно вычислимо.\n\n
+        <b>Цикл While</b> используется для повторения оператора (группы операторов) произвольное число раз, которое может быть заранее и не известно, причем проверка условия выполнения тела цикла происходит перед выполнением тела цикла. \n\n
+        Синтаксис оператора:\n    while условие do оператор;\n  или\n    while условие do\n    begin\n      оператор1;\n       оператор2;\n       ....\n    end;\n\n
+        Суть выполнения оператора заключается в проверке логического условия, если оно оказывается истинным, выполняются операторы тела цикла до тех пор, пока логическое условие не станет ложным. Если условие было ложным перед выполнением цикла, то операторы цикла никогда не выполняются. Если условие остается истинным всегда, то цикл никогда не закончится. Говорят, что программа зацикливается. \n\n
+        <b>Цикл repeat … until</b> похож на цикл while. Его синтаксис:\n    repeat\n      оператор1;\n       оператор2;\n       ....\n    until условие;\n\n
+        Обратите внимание, что, несмотря на несколько операторов в теле цикла, begin и end отсутствуют. Сам оператор представляет собой скобки. Цикл начинается с выполнения операторов, затем проверяется условие, если оно ложно, то цикл повторяется, а если истинно, то завершается. Если условие истинно и перед выполнением цикла, то цикл выполняется один раз. Если условие остается ложным всегда, то программа зацикливается.\n\n
+        Построим таблицу квадратов чисел от 1 до 10 с помощью цикла while и repeat … until\n\n
+        Program SquareW;\n var i : integer;\n begin\n  i:=1\n  while i&#60;=10 10 do\n   begin\n    writeln(i:4,sqr(i):4);\n    i:=i+1;\n  end;\n end.\n\n
+        Program SquareR;\n var i : integer;\n begin\n  i:=1\n  repeat\n    writeln(i:4,sqr(i):4);\n    i:=i+1;\n  until i>10;\n end.\n\n
+        Рассмотрим следующий пример.  Необходимо построить вложенные друг в друга концентрические окружности. Радиус самой большой окружности – 400 пикселей, а радиус каждой вложенной – в два раза меньше предыдущей, т.е. 200, 100, 50, … Радиус последней – 1 пиксель. \n\n
+        Для решения этой задачи разумно использовать цикл while или repeat until, поскольку действительно сразу сложно понять сколько будет окружностей (хотя, конечно, можно сосчитать). \n\n
+        Program Circles;\n Uses GraphABC;\n var r : integer;\n begin\n  SetWindowSize(800,800);\n  r:=400;\n    repeat\n   circle(400,400,r);\n   r:=r div 2;\n  until r&#60;1;\n  end.\n\n
+        Program Circles;\n Uses GraphABC;\n var r : integer;\n begin\n  SetWindowSize(800,800);\n  r:=400;\n    while (r>=1) do\n  begin\n   circle(400,400,r);\n   r:=r div 2;\n  end; end.
+    </string>
+    <string name="content_lesson8">
+            <b>Вещественные вычисления на языке Pascal</b>\n\n
+        До сих пор мы оперировали целыми числами. Однако в физических вычислениях в вычислениях, связанными с измерениями, мы сталкиваемся с другим классом чисел. В математике их называют вещественными (или действительными). Подмножеством вещественных чисел являются рациональные числа. В языке Pascal вводится тип данных real, который является моделью вещественных чисел в математике. \n\n
+        Рассмотрим сразу пример:\n  Program Krug;\n Uses CRT;\n  // Вычисление длины окружности\n  var r    : real; // Радиус окружности\n     s    : real; // Длина окружности\n begin\n   write(\'Введите радиус: \');\n readln(r);\n  s:=2*3.1415926*r;\n  writeln(\'Длина окружности: \',s:8:2);\n end.\n\n
+            Обратите внимание на описание переменных (тип real). Конечно, переменные можно описывать и несколько в одном операторе (r, s : real), но мы захотели добавить комментарии к описанию, поэтому описали переменные в отдельных операторах. \n
+            Ввод вещественных чисел с клавиатуры ничем не отличается от ввода целых чисел. Вещественные числа могут, как и целые, участвовать в арифметических выражениях. К ним применимы операции  сложения +,  вычитания –, умножения *, а также деления /. Деление выполняется обычным способом, как в математике, т.е. 5/2 будет 2.5. Деление на цело (div), остаток от деления (mod) для вещественных чисел не определены! \n
+            Запись вещественных чисел может быть в двух формах. Первая форма называется «с фиксированной точкой». Пример:\n
+        3.5,   2.0,    +36.6,    –40.123.\n
+        Обратите внимание на то, что в качестве разделителя целой и дробной части используется точка, а не запятая. Вторая форма записи называется «с плавающей точкой». Эта запись похожа на стандартизованное представление чисел в математике (например 216.67 10  ). В языке Pascal такое число можно записать в следующем виде  6.67E21, т.е. вместо ·10 в языке Pascal пишется буква E (большая или маленькая, всё равно). Приведем еще примеры записи вещественных чисел с плавающей точкой:\n
+        3E1,    –2e+10,     +1.234E–10,     65.2e+20. \n
+        Часть числа до буквы E называется мантиссой, а после буквы E – порядком или экспонентой. \n\n
+    </string>
+    <string name="content_lesson9">
+            <b>Подпрограммы на языке Pascal</b>\n
+            <i>Функции</i>\n
+        При решении сложных задач разумно разбить алгоритм на несколько более простых составляющих. В языке Pascal существуют специальные средства для этого – подпрограммы. Есть два вида подпрограмм: процедуры и функции. Функция получает информацию от вызывающей программы через свои параметры. Параметры, описанные в заголовке функции, называются формальными параметрами. Параметры, указанные при вызове функции называют фактическими. Типы и число фактических параметров должны соответствовать типу и числу формальных параметров. Следующий пример иллюстрирует работу функций.\n\n
+         Program Table;\n  Uses CRT; // Подключение модулей\n    // Описания функций, требующихся в программе\n    function cube(x:real):real;  // возведение в куб\n   begin\n    cube:=x*x*x;  // имени функции присваивается значение\n   end;\n      function sign(x:real):integer;  // вычисление знака числа\n   begin\n    if x>0 then sign:=1\n           else if x=0 then sign:=0\n                       else sign:=-1;\n   end;\n    //  ==== Начало главной программы ========== \n     var   a : real;    // блок описания переменных\n   const a1 = -5.0;   // блок описания констант (постоянных)\n         a2 = +5.0;\n         st =  0.5;\n   begin\n     a:=a1;\n     while (a&#60;=a2) do\n     begin\n      writeln(a:4:1,cube(a):10:3,sign(a):3); // вызов функций\n      a:=a+st;\n     end;\n   end.\n\n
+        Обратите внимание, что внутри тела функции (заключенного в операторные скобки begin … end) вы обязаны хотя бы один раз имени функции присвоить значение. В этой программе также используется новый материал, не связанный с функциями, – это константы. Значение констант задается через знак равенства (а не присваивания). Тип константы определяется из типа присваиваемого значения. Константы, в отличие от переменных, не могут менять свое значение. \n\n
+        Рассмотрим еще один пример, в котором функция имеет два параметра разного типа. \n\n
+           Program Power2;\n  Uses CRT;\n   function power(x : real; n : integer) : real; // возведение в степень\n  var i : integer; // локальные переменные\n      r : real;\n  begin\n    r:=1.0;\n    for i:=1 to n do r:=r*x; // накопление произведения\n    power:=r;                // результат присвоить имени функции\n  end;\n    //  ==== Начало главной программы ================\n      var   i : integer;    // блок описания переменных\n   begin\n      for i:=1 to 10 do\n        writeln(i:2,power(2.0,i):6:0);\n   end.\n\n
+        
+    </string>
+    <string name="content_lesson10">
+            <b>Подпрограммы на языке Pascal</b>\n\n
+            <i>Процедуры</i>\n\n
+        Для выполнения каких-либо действий (а не вычислений значений) существуют подпрограммы-процедуры. Они также могут принимать параметры, как и подпрограммыфункции.  Давайте сразу проиллюстрируем работу процедуры на примере графической программы. \n\n
+        В стандартной графической библиотеке нет процедуры, рисующей треугольники. Давайте создадим такую процедуру и проверим ее работу. \n\n
+        Program UseProc;\n  Uses GraphABC;\n   Procedure Triangle(x1,y1,x2,y2,x3,y3:integer);\n  // Процедура рисует треугольник\n  begin\n   line(x1,y1,x2,y2);\n   line(x2,y2,x3,y3);\n   line(x3,y3,x1,y1);\n  end;\n   // Главная программа\n  begin\n   SetWindowSize(500,500);\n   Triangle(100,200,400,300,250,150);\n   Triangle(10,20,30,40,50,10);\n  end.\n\n
+        
+    </string>
+    <string name="content_lesson11">
+            <b>Способы передачи параметров</b>\n\n
+            <i>Параметры-значения и параметры-переменные</i>\n\n
+        Каким образом подпрограмма может вернуть главной программе какую-либо информацию? До сих пор это могла делать только подпрограмма-функция, возвращая через свое имя только одно значение. А как поступить, если надо вернуть из подпрограммы несколько значений? \n\n
+        Для примера напишем подпрограмму, которая должна вычислить длину окружности ( L=2pr ) и площадь круга (S=pr^2 ) по заданному радиусу.\n\n
+        Program ProcUse;\n  Uses CRT;\n   // вычисление длины окружности и площади круга\n  Procedure Pr(R,L,S:real);\n  begin\n   L:=2*PI*R;\n   S:=PI*sqr(R);\n  end;\n      // ГЛАВНАЯ ПРОГРАММА\n  var rad, len, area : real;\n  begin\n   write(\'Введите радиус \');\n readln(rad);\n   Pr(rad, len, area);\n   writeln(\'Длина окружности \', len);\n   writeln(\'Площадь круга    \', area);\n  end.\n\n
+        Попробуйте выполнить данную программу. Вы обнаружите странный результат: какое бы значение радиуса вы не вводили, результат будет один и тот же: длина окружности и площадь круга будут равны 0! В чем дело? \n\n
+        Оказывается тот способ передачи параметров подпрограмме, который мы использовали не подходит для решения нашей задачи. Используемый до сих пор способ называется передача параметров по значению. Суть его заключается в том, что подпрограмма создает копии параметров (в другой терминологии – локальные переменные подпрограммы), в которые помещаются значения, заданные в фактических параметрах в главной программе. Т.е. по смыслу такие параметры являются входными, т.е. предназначенными для передачи информации из главной программы в подпрограмму, но не наоборот. Однако этот подход имеет тот плюс, что подпрограмма гарантирует, что она не изменит фактические параметры.\n\n
+        Второй способ называется передача параметров по ссылке. Изменим заголовок процедуры Pr на следующий:\n  Procedure Pr(R: real; var L,S:real); \n\n
+        
+    </string>
+    <string name="content_lesson12">
+            <b>МАССИВЫ</b>\n\n
+            <i>Тема имеет исключительно важное значение</i> \n\n
+        В практике программирования часто встречаются задачи, в которых требуется применение регулярных, пронумерованных данных: таблицы, результаты наблюдений, проекции векторов, числовые матрицы, каталоги библиотек и т.д. Для работы с такими данными практически во всех языках программирования существует понятие массива. \n\n
+        Массив – это регулярная структура данных, которая состоит из пронумерованных компонент одного и того же типа. Этот тип мы будем называть базовым типом. \n\n
+        Массивы могут быть одномерными:\n
+            A1 A2 A3 A4 A5 A6 A7 A8\n\n
+        и многомерными (например, двумерными):\n
+        A11 A12 A13 A14\n A21 A22 A23 A24\n A31 A32 A33 A34\n\n
+        С точки зрения машинной реализации, все массивы – одномерные, разница лишь в том, как пронумерованы элементы массива. \n\n
+        Описание одномерного массива, если считать его элементы целыми числами выглядит следующим образом:\n A : array [1..8] of integer;\n
+        здесь  array – ключевое слово, которое и обозначает собственно массив, в квадратных скобках указан диапазон первого и единственного индекса.\n\n
+        В Pascal’е в качестве диапазона индекса может выступать любой отрезок перечислимого типа, например ‘A’..’H’, либо 0..7. Однако на практике чаще всего удобнее в качестве индексов использовать отрезок целого типа, причем нижний (меньший) индекс разумно выбирать единицей или нулем.\n\n
+        Одной из самых неприятных ошибок программирования – является ошибка обращения к несуществующему элементу массива, или как говорят, ошибка выхода индекса за допустимый диапазон. Поэтому предыдущее определение массива A лучше переписать так:\n Const N = 8;\n Var A : array [1..N] of integer;\
+        и в дальнейшем в программе при работе с массивом использовать не конкретные числа, а константы, которые определяют диапазон индексов, кроме того, программу можно будет легко модифицировать для работы с массивом другой размерности, так как необходимо будет изменить всего лишь одну строчку! \n\n
+        Иногда формальность описания следует развить, выделив описание типа отдельно, это будет абсолютно необходимо, если вы собираетесь использовать в процедурах и функциях параметры-массивы.\n Const N = 8;\n Type  TA = array [1..N] of integer;\n Var   A : TA;\n\n
+        Дополнительные удобства этого подхода заключаются в том, что массивы, описанные в разных местах как массивы типа TA, будут являться совместимыми по типу, а в случае описания массивов A и B одинаковым способом, но без объявления типамассива, они будут считаться несовместимыми. Например,\n Const N = 8;\n Type TA = array [1..N] of integer;\n Var A : TA;\n Var B : TA;\n
+        здесь A и B – массивы одного и того же типа. А здесь:\n Const N = 8;\n Var A : array [1..N] of integer;\n Var B : array [1..N] of integer;\n
+        здесь A и B – массивы будут считаться разных типов. Хотя следующее описание определяет массивы одинаковых типов:\n    Const N = 8;\n    Var A,B : array [1..N] of integer;\n
+        В качестве базового типа допустим абсолютно любой тип, в том числе и массив, т.е. допустим массив массивов:\n  Const M = 5;\n     N = 8;\n  Var   A : array [1..M] of array [1..N] of integer;\n\n
+        Подобная ситуация встречается довольно часто, поэтому для нее существует разумное сокращение:\n Const M = 5;\n    N = 8;\n Var   A : array [1..M,1..N] of integer;\n \n
+        Следует учесть, что многомерные массивы, даже при небольших диапазонах индексов имеют тенденцию занимать много памяти. \n
+            <b>Основные приемы работы с массивами </b>\n\n
+        Рассмотрим выполнение элементарных манипуляций с массивами. Самая простая задача – заполнение всех элементов одним и тем же значением:\n {Инициализация массива}\n for i:=1 to N do A[i]:=0;\n\n
+        Обратите внимание, как осуществляется доступ к элементам массива – после имени массива в квадратных скобках указывается индекс, который может быть произвольным выражением, лишь бы его значение не выходило за указанный при описании диапазон. Подобная конструкция допустима везде, где допустима простая переменная. \n\n
+        Цикл for – чрезвычайно удобная и полезная вещь при работе с массивами. Оператор вида for i:=1 to N do – можно «переводить» как «выполнить для всех элементов массива». \n\n
+        Если два массива одного типа, то допустимо присваивание одного массива другому одним оператором:\n B:=A;\n\n
+        Следующие два примера показывают, как осуществить ввод-вывод с небольшим сервисом:\n {ввод массива}\n for i:=1 to N do\n begin\n   write(\'Ввeдите \',i,\'-й элемент: \');\n readln(A[i])\n end;\n\n
+        Из этого примера видно, что массив вводится поэлементно, и как организовать нехитрый сервис. Вывод производится аналогично:\n {вывод массива}\n for i:=1 to N do writeln(\'A[\',i,\']=\',A[i]);\n\n
+        Теперь рассмотрим самую первую нашу задачу на обработку массива – поиск максимального элемента. Поступим следующим образом: пусть максимальный элемент массива – первый, заведем для него специальную переменную; затем будем просматривать поочередно последующие элементы, и если окажется, что нам встретится элемент больший, чем уже определенное число, то заменим его на этот элемент массива. Таким образом, когда мы просмотрим весь массив, окажется, что наша переменная содержит искомое значение:\n {определение максимального значения}\n max:=A[1];\n for i:=2 to N do if A[i]>max then max:=A[i];\n writeln(\'Maximum=\',max);\n\n
+        Напишем теперь целиком программу, использовав полученные знания:\n  Program Massiv;\n  Const N = 10;\n Var A : array [1..N] of integer;\n     i, max : integer;\n  begin\n    for i:=1 to N do // Ввод массива\n   begin\n     write(\'Ввeдите \',i,\'-й элемент: \');\n  readln(A[i])\n   end;\n     max:=A[1]; // Поиск максимального значения\n   for i:=2 to N do if A[i]>max then max:=A[i];\n   writeln(\'Maximum=\',max);\n  end.\n\n
+        
+    </string>
+    <string name="content_lesson13">
+            <b>СОРТИРОВКА МАССИВОВ</b>\n\n
+            <i>Тема имеет исключительно важное значение</i>\n\n
+        Первой серьезной задачей программирования, с которой сталкивается начинающий программист – это задача сортировки массива. Под сортировкой понимается упорядочивание элементов массива по возрастанию (или по убыванию) без создания копии массива (т.е. «на месте»). \n\n
+        Самый простой алгоритм – это линейная сортировка. Проведем последовательно сравнение первого элемента со всеми последующими, при если при очередном сравнении (например сразу 4 и 2) выяснится, что элементы стоят в «неправильном» порядке – переставим их местами, затем продолжим сравнение. По окончании одного прохода, можно сказать, что в первом элементе массива находится минимальный элемент.\n
+        Далее применим указанную процедуру к неотсортированному «остатку» массива до тех пор, пока не переставим два последних элемента.\n
+        Алгоритм линейной сортировки очень прост, но не экономичен, среднее число просмотров и перестановок пропорционально квадрату числа элементов (~N^2/2).\n\n
+        Приведем программу сортировки. Обратите внимание, что мы использовали массив в качестве параметра процедуры. Для этого необходимо создать тип Massiv . Часто для экономии памяти массив передают через var-параметр, даже если не предполагается его модифицировать в подпрограмме. Т.е. заголовок процедуры print мог бы выглядеть следующим образом: procedure print(var m : Massiv); .\n\n
+        Program LinerSort;\n  Const N = 10; // Число элементов массива\n  Type  Massiv = array [1..N] of integer; // Определение типа Massiv\n
+        procedure swap(var x,y: integer); // Перестановка элементов местами\n var z : integer;\n begin\n  z:=x; x:=y; y:=z;\n end;\n  procedure print(m : Massiv); // Вывод массива\n var i : integer;\n begin\n  for i:=1 to N do write(m[i]:5);\n  writeln; // Новая строка\n end;\n
+        // Переменные главной программы\n Var   a : Massiv;\n       i,j : integer;\n  begin\n  // Заполнение массива случайными числами в диапазоне от 0 до 99\n  for i:=1 to N do a[i]:=random(100);\n  print(a); // Вывод массива\n    for i:=1 to N-1 do // Внешний цикл до N-1      (обратите внимание!)\n    for j:=i+1 to N do // Внутренний цикл от i+1 (обратите внимание!)\n      if (a[i]>a[j]) then swap(a[i],a[j]); // Перестановка элементов\n        print(a); // Вывод отсортированного массива end.\n\n
+
+    </string>
+    <string name="content_lesson14">
+            <b>РАБОТА С ФАЙЛАМИ</b>\n\n
+        Многим программам требуется сохранять и читать информацию, используя файловую систему компьютера. В языке Pascal изначально были предусмотрены специальные операторы и типы данных для работы с файлами. \n\n
+        В ABC Pascal есть два вида файлов: текстовые и типизированные. В типизированных файлах обмен с внешними устройствами производится без какого либо преобразования данных, т.е., например, числа типа integer непосредственно копируются на диск, занимая по 4 байта каждое. Попытка просмотра такого файла в текстовом редакторе обречена на неудачу, мы увидим лишь бессмысленный набор знаков. Однако скорость ввода/вывода для таких файлов будет максимальной. Типизированные файлы мы рассмотрим позже в связи с типом данных record.\n
+        Работа с текстовым файлами очень похожа на работу с обычным консольным вводом/выводом. Числовые данные преобразуются в цифры в соответствии с заданными форматами (стр. 15 и стр. 26). Строковый и символьный тип данных выводится без преобразований. Следует учесть, что текстовый файл может быть открыт либо на чтение, либо на запись\n
+        Созданный текстовый файл можно прочитать в простом текстовом редакторе (notepad, aditor, в редакторе ABC Pascal, [можно и в Word12]). В текстовом файле ABC Pascal используется кодировка Win-1251, в которой один символ занимает один байт. Текстовый файл можно создать в редакторе (в соответствии с указанными правилами) и прочитать в программе на ABC Pascal. \n
+        Рассмотрим сразу простой пример – вывод таблицы квадратов первых 10 чисел в текстовый файл table.txt.\n
+        Program TextOut;\n  const name = \'text.txt\'; // имя файла в текущем каталоге\n  var f : text;            // файловая переменная\n     n : integer;         // переменная для цикла for\n      begin\n  assign(f,name); // связывание файловой переменной с именем файла на диске\n  rewrite(f);     // создание и открытие файла на запись\n  for n:=1 to 10 do writeln(f,n:2,sqr(n):4); // вывод в файл writeln(f,...);\n  close(f); // закрытие файла, сохранение всех еще незаписанных данных на диск\n end.\n\n
+        В этом пример надо обратить внимание на несколько операторов:\n 1. f : text – переменная специального встроенного типа «текстовый файл»;\n 2. assign(f,name) – сопоставление файлу f в программе файла name на диске;\n 3. rewrite(f)  – «перезаписывает» файл f, т.е. либо создает новый пустой файл, либо уничтожает старый (будьте осторожны поэтому) и опять создает новый пустой файл;\n 4. writeln(f,…) – модификация уже известного оператора writeln, отличается от привычного только тем, что первый параметр – имя файловой переменной\n 5. close(f) – файлы надо обязательно закрывать, особенно файлы, открытые на запись (как в приведенном примере), иначе часть данных может быть утеряна.\n\n
+        Вместо оператора rewrite, файл можно открыть оператором append, в этом случае будет произведено открытие уже существующего файла в режиме дозаписи в конец файла.\n
+        Рассмотрим теперь пример чтения уже существующего файла, в качестве файла используем созданный в предыдущем примере файл text.txt. \n
+        Program TextIn;\n Uses CRT;\n  const name = \'text.txt\'; // имя файла в текущем каталоге\n  var f : text;         // файловая переменная\n     a,b : integer;    // переменные для чтения\n      begin\n  assign(f,name); // связывание файловой переменной с именем файла на диске\n  reset(f);       // открытие существующего файла на чтение\n  repeat\n   readln(f,a,b);    // чтение из файла информации из целой строки\n   writeln(a:5,b:5); // вывод в окно CRT\n  until Eof(f);      // Функция eof возвращает true при достижении конца файла\n  close(f);          // закрытие файла\n end.\n\n
+
+        В этом пример надо обратить внимание на следующее:\n 1. reset(f) – открытие существующего файла на чтение, если файла нет, то произойдет ошибка выполнения программы;\n 2. readln(f,…) – оператор чтения из файла, при работе с файлами действие операторов read(f,…) и readln(f,…) различно, первый прочитает необходимую информацию посредине строки, так что следующий оператор чтения продолжит чтение со средины строки. Оператор readln после чтения информации пропустит все оставшиеся до конца строки символы, таким образом следующий оператор чтения начнет ввод с начала следующей строки;\n 3. Функция eof(f) возвращает всегда ложное значение, кроме одного единственного случая: достигнут конец строки. Для того, чтобы обойти всякие тонкие случаи, когда в конце файла есть несколько символов «конец строки» или лишние пробелы и символы табуляции, рекомендуются использовать функцию SeekEof(f) –  ее действие аналогично eof, но она возвращает true, если до конца файла есть только «пустые» символы: конец строки, табуляция и пробелы.
+    </string>
+    <string name="content_lesson15">
+            <b>СИМВОЛЬНЫЕ ПЕРЕМЕННЫЕ И СТРОКИ СИМВОЛОВ </b>\n\n
+        В языке Pascal присутствуют два типа для работы с символьной информацией. Переменные типа char могут принимать значение одного из 256 символов стандартной таблицы кодировки. Константы типа char записываются в виде одного символа в апострофах. Символьные переменные можно вводить оператором readln, но при этом придется еще нажимать Enter для подтверждения ввода. В модуле CRT есть очень удобная функция ReadKey, которая вводит символьную переменную без подтверждения ввода.\n\n
+        Для работы с символьными переменными в языке Pascal есть две специальные функции: ord и chr. Первая функция возвращает код (порядковый номер в таблице кодировки) символа, например ord(\'A\') вернет значение 65. Вторая функция имеет обратный смысл, по коду, возвращает символ, т.е. chr(65) будет символ \'A\'.  Следующий пример выводит все символы кодовой таблицы, начиная с кода 32^15 и заканчивая кодом 255. Оператор if в цикле производит переход на новую строку после вывода линейки из 32 символов. Результат работы программы приведен справа.\n\n
+        Program ANSI;\n Uses CRT;\n var c : char;\n     i : integer;\n  begin \n  for i:=32 to 255 do\n   begin\n    write(Chr(i));\n    if (i+1) mod 32 = 0 then writeln;\n   end;\n end.\n\n
+        В языке Turbo Pascal появился специальный тип string, который имеет черты массива символов, а также некоторые дополнительные удобные возможности. Тип string реализован и в языке ABC Pascal.\n\n
+        Строки в Pascal ABC имеют тип string и состоят из не более чем 255 символов. При описании\n var s: string;\n
+        под переменную s отводится 256 байт, при этом в нулевом байте хранится длина строки. \n\n
+        Для экономии памяти предусмотрено описание вида\n var s1: string[40]; \n\n
+        В этом случае под строку отводится 41 байт (нулевой байт – под длину строки). В случае присваивания переменной s1 строки из более чем 40 символов лишние символы отсекаются, и длина строки s1 полагается равной 40. \n
+        При выполнении операции конкатенации («склеивания») вида s1+s1 результат считается строкой типа string, т.е. занимает 256 байт. Однако если при конкатенации результат будет занимать более 255 символов, то программа завершится с ошибкой. Строки можно сравнивать, подразумевается их упорядоченность по алфавиту. \n
+        К символам в строке можно обращаться, используя индекс: s[i] обозначает i-й символ в строке. Обращение к нулевому символу s[0] считается ошибочным. \n
+        Для того чтобы узнать длину строки следует воспользоваться встроенной функцией Length(s). Чтобы изменить длину строки, следует воспользоваться процедурой SetLength(s,n). Если индекс i выходит за пределы памяти, отводимой под строку, то выдается сообщение об ошибке. Однако если индекс i выходит лишь за пределы длины строки, то сообщение об ошибке не выдается. \nТип char и тип string могут быть параметрами процедур и функций, а также возвращаться функциями. Для иллюстрации работы со строками и символами напишем функцию, заменяющую в строки заданный символ на другой и возвращающую результат. \n\n
+        Program Strings; // замена символов a на b в строке s\n  function replace(s : string; a,b : char):string;\n  var i : integer;\n  begin\n   for i:=1 to Length(s) do  // цикл для всех символов строки\n     if s[i]=a then s[i]:=b; // замена символов\n   replace:=s;               // имени функции присваивается значение\n  end;\n  begin\n   writeln(replace(\'мама мыла раму\',\'м\',\'н\')); // Проверка работы функции\n end.\n\n
+        Тип char или string может использоваться для чтения информации из текстового файла, например: \n\n
+        Program ReadText;\n Uses CRT;\n var name : string;  // Имя файла\n      s    : string;  // Буфер для чтения строки\n     f    : text;    // Файловая переменная\n     n    : integer; // Счетчик строк\n begin\n   write(\'Введите имя файла: \'); readln(name); // Ввод имени файла\n   assign(f,name); reset(f); // Открытие файла\n   n:=0;      // Обнуление счетчика\n   while not eof(f) do       // Чтение «пока не конец файла»\n   begin\n     readln(f,s);      // Чтение одной строки из файла f\n     writeln(n:4,\': \',s);   // Вывод номера и строки на экран\n     inc(n);                // inc(n) – операция увеличения на единицу\n       if n mod 25 = 0 then readln; // Пауза после каждой 25-й строки\n    end;\n    close(f);\n  end.\n\n
+        
+
+    </string>
+    <string name="content_lesson16">
+            <b>МНОЖЕСТВА</b>\n\n
+        В языке Pascal есть очень интересный тип данных множество. Множество представляет собой набор элементов одного порядкового типа. Элементы множества считаются неупорядоченными; каждый элемент может входить во множество не более одного раза. Тип множества описывается следующим образом:\n set of базовый тип;\n\n
+        В качестве базового может быть любой порядковый тип с элементами, для которых функция Ord возвращает значения в диапазоне от 0 до 255. К таким типам, из изученных нами, относятся тип char и byte (а также их подмножества). Аналогично массивам можно определить название нового типа в секции type, например:\n
+        type\n    ByteSet = set of byte;\n   CharSet = set of char;\n   Digits  = set of \'0\'..\'9\'; // подмножества типа char\n\n
+        Сами множества задаются в виде перечисления их элементов (возможно с использованием диапазонов), заключенные в квадратные скобки:\n\n
+        var Vowels : CharSet;  // можно было написать vowels : set of char;\n     Good   : Digits;   // можно было написать good : set of \'0\'..\'9\';\n  …\n Vowels:=[\'A\', \'E\', \'O\', \'I\', \'U\']; // Элементы явно перечислены\n Good:=[\'3\'.. \'5\', \'10\'];   // Диапазон и отдельный элемент\n\n
+        Для проверки принадлежности элемента множеству существует операция in:\n\n  var c : char;\n   … \n if c in Vowels then inc(n); // Если с – гласная, то увеличить n на 1\n\n
+    </string>
+    <string name="content_lesson17">
+            <b>Вычислительные программы – квадратное уравнение</b>\n\n
+         Решение квадратного уравнения выходит за рамки курса математики 7 класса, но мы сочли возможным внести эту классическую задачу программирования в дополнение.\n
+         Квадратным уравнением называется уравнение вида:\n ax^2+bx+c=0;\n\n
+        На первом этапе его решения определяется так называемый дискриминант:\n d=b^2-4ac;\n\n
+        Далее рассматривают три случая\n
+        1. d&#60;0 – в этом случае вещественных решений нет;\n
+        2.d=0 - один корень;\n
+        3.d>0 - 2 корня;\n\n
+        Составим программу для решения этой задачи:\n\n
+         Program SquareEquation;\n var a, b, c : real; // Коэффициенты уравнения\n   d : real; // Дискриминант\n       x1, x2 : real; // Корни уравнения\n  begin\n  write(\'Введите a, b, c \'); readln(a,b,c); // Ввод исходных данных\n  d:=b*b-4*a*c; // Вычисление дискриминанта\n   if d&#60;0 then writeln(\'Решений нет\')\n         else if d=0 then begin\n                           x1:=-b/(2*a);\n                           write(\'x=\',x1)                          end\n                     else begin\n                           x1:=(-b+sqrt(d))/(2*a);\n                           x2:=(-b-sqrt(d))/(2*a);\n                           write(\'x1=\',x1,\'  x2=\',x2)\n                          end\n        end.\n\n
+        Последнюю ветвь else можно оптимизировать, убрав повторяющиеся вычисления (особенно вычисление квадратного корня)\n\n                      else begin\n                           d:=sqrt(d); a:=2*a;\n                           x1:=(-b+d)/a;\n                              x2:=(-b-d)/a;\n                           write(\'x1=\',x1,\'  x2=\',x2)\n                          end\n\n
+        
+    </string>
+    <string name="title_activity_scrolling17">ScrollingActivity17</string>
+    <string name="title_activity_app_info">app_info</string>
+
+</resources>
